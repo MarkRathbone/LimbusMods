@@ -1,14 +1,12 @@
 # Limbus Autodialogue
 
-Remembers the last manually selected story dialogue Auto mode, including fast Auto. The preference is restored once per story node; scripted pauses do not overwrite it.
+Remembers the last manually selected story dialogue Auto dialogue mode.
 
 ## Install
 
 When upgrading from an older name, use `Install.ps1` or remove the old plugin DLL before extracting this release. Configuration IDs are unchanged.
 
 Requires a compatible BepInEx 6 IL2CPP loader. Extract the release ZIP into the game folder, or run `./Install.ps1 -GameDir "path/to/Limbus Company"` with the game closed. Configuration is saved in `BepInEx/config/local.limbus.retainautoplay.cfg` under `[Story]`.
-
-Ultrawide Limbus and Unnerfed are not required.
 
 ## Build and release
 

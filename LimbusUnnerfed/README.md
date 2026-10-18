@@ -1,12 +1,12 @@
 # Limbus Unnerfed
 
-Restores reviewed story-boss balance changes and adds optional combat caps for identity levels, Uptie and E.G.O Threadspin. Restorations validate the expected game data before changing it; unsupported revisions are rejected.
+Restores story-boss to their pre-nerf states and adds the ability to apply optional caps for identity levels, Uptie and E.G.O Threadspin.
 
 ## Features
 
 - Boss restorations covering Aida, Kromer, Ambling Pearl, Queequeg, Ahab, Heathcliff, the Wild Hunt, Nelly, Kong Qiu, Lei Heng and Buffet. See `src/Data/restorations.json` for the implemented field changes.
-- Independent combat caps. Manual levels must be positive; Level Sync uses the encounter difficulty. Uptie and Threadspin support tiers Iâ€“V. Sync uses tier III before July 20, 2023 and tier IV for later encounters. Caps never raise an owned level or tier.
-- Native boss/identity interactions remain in place. Jia Mu's resistance changes and focused Nocturnal Sweeping encounters are retained.
+- Independent combat caps. Levels must be positive; Level Sync uses the encounter difficulty. Uptie and Threadspin support tiers I to V. Sync uses tier III before July 20, 2023 and tier IV for later encounters. Caps never raise or lower your actual level or tier.
+- Certain changes remain in place. Jia Mu's resistance changes and focused Nocturnal Sweeping encounters are retained.
 - Optional manager-ID redaction. Set your own `Privacy.ManagerId` in the plugin configuration; the release has no account number built in.
 
 ## Install
@@ -15,9 +15,9 @@ When upgrading from an older name, use `Install.ps1` or remove the old plugin DL
 
 Requires a compatible BepInEx 6 IL2CPP loader for your current game build. Extract the release ZIP into the game folder or run `./Install.ps1 -GameDir "path/to/Limbus Company"` while the game is closed. Configuration is `BepInEx/config/local.limbus.unnerfed.cfg`.
 
-Local test stages are hidden by default. To enable them, set `EnableReplayNodes = true` under `[Local Testing]` and restart. Existing configurations retain their saved value. T1â€“T14 appear beside the last Canto VIII nodes; these encounters are local, free and have no rewards.
+Local test stages are hidden by default. To enable them, set `EnableReplayNodes = true` under `[Local Testing]` and restart. Existing configurations retain their saved value. T1 to 14 appear beside the last Canto VIII nodes; these encounters are local only, free to play and have no rewards.
 
-The restorations are a reconstruction, not a claim of complete historical equivalence. Offline tests cover descriptions, caps, restoration rules and synthetic replay data. They do not replace live combat verification.
+The restorations are a reconstruction, I cannot claim they are a 1 to 1 match. Offline tests cover descriptions, caps, restoration rules and synthetic replay data. They do not replace live combat verification.
 
 ## Build and release
 
