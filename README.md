@@ -32,3 +32,21 @@ git push origin LimbusAutodialogue/v1.0.0
 Other tags follow the same format: `LimbusUltrawide/v0.9.57`, `LimbusUnnerfed/v0.4.20`, `LimbusCollectionExporter/v1.0.0`, and `LimbusBuild/v1.0.0`. Each version must match its project's declaration. Releases contain only the selected package and checksum.
 
 Unnerfed's local test stages are hidden by default. Existing users can retain an explicitly enabled testing setting. Installed mod files are not changed by builds.
+
+## Enable Canto VIII test stages
+
+Limbus Unnerfed includes optional test stages for the restored bosses. They are hidden by default.
+
+1. Install Limbus Unnerfed and launch the game once to generate its configuration, then close the game.
+2. Open `BepInEx/config/local.limbus.unnerfed.cfg` inside the game folder.
+3. Under `[Local Testing]`, change the existing setting to:
+
+   ```ini
+   [Local Testing]
+   EnableReplayNodes = true
+   ```
+
+4. Save the file and restart the game with mods enabled.
+5. Open the Canto VIII map and scroll to the right of its final nodes, near **8-33**. The boss test stages appear as **T1?T14**.
+
+These stages use the Unnerfed profiles, are free to enter, and give no rewards or story progress. To hide them again, set `EnableReplayNodes = false` and restart.
