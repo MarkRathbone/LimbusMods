@@ -1,0 +1,12 @@
+{
+  "name": "LimbusCollectionExporter",
+  "kind": "powershell",
+  "version": "1.0.0",
+  "packageFiles": [
+    "README.md",
+    "Export-Limbus.cmd",
+    "Export-Limbus.ps1",
+    "LimbusRead.cs",
+    "limbus-facade-metadata.json"
+  ]
+}

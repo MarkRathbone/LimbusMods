@@ -1,0 +1,12 @@
+{
+  "name": "LimbusBuild",
+  "kind": "source",
+  "version": "1.0.0",
+  "packageFiles": [
+    "README.md",
+    "release.json",
+    "scripts/Build-Release.ps1",
+    "scripts/Get-BuildDependencies.ps1",
+    "scripts/Test-Build.ps1"
+  ]
+}

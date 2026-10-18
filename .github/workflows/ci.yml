@@ -1,0 +1,47 @@
+name: Limbus Mods
+on:
+  push:
+    branches: [main]
+    tags: ['Limbus*/v*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
+jobs:
+  projects:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      matrix: ${{ steps.select.outputs.matrix }}
+    steps:
+      - name: Select projects
+        id: select
+        env:
+          BUILD_REF: ${{ github.ref }}
+          BUILD_TAG: ${{ github.ref_name }}
+        run: |
+          python - <<'PY'
+          import json, os, re
+          projects = ['LimbusBuild', 'LimbusAutodialogue', 'LimbusUltrawide', 'LimbusUnnerfed', 'LimbusCollectionExporter']
+          if os.environ['BUILD_REF'].startswith('refs/tags/'):
+              tag = os.environ['BUILD_TAG']
+              name, separator, version = tag.partition('/')
+              if name not in projects or not separator or not re.fullmatch(r'v\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?', version):
+                  raise SystemExit('Expected a known project/version tag, e.g. LimbusUltrawide/v0.9.57')
+              projects = [name]
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('matrix=' + json.dumps(projects) + '\n')
+          PY
+  build-and-release:
+    needs: projects
+    strategy:
+      fail-fast: false
+      matrix:
+        project: ${{ fromJSON(needs.projects.outputs.matrix) }}
+    uses: ./.github/workflows/mod-release.yml
+    with:
+      project: ${{ matrix.project }}

@@ -1,0 +1,10 @@
+{
+  "name": "LimbusUnnerfed",
+  "kind": "plugin",
+  "project": "src/LimbusUnnerfed.csproj",
+  "packageFiles": [
+    "README.md",
+    "Install.ps1"
+  ],
+  "tests": "tests/LimbusUnnerfed.Tests.csproj"
+}

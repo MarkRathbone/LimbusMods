@@ -1,0 +1,16 @@
+research/
+**/research/
+**/bin/
+**/obj/
+artifacts/
+deps/
+.vs/
+.vscode/
+*.user
+*.suo
+__pycache__/
+*.pyc
+outputs/
+limbus-runtime-cache.json
+*.dmp
+*.log

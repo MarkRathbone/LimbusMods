@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Version>0.4.20</Version>
+    <CoreDir Condition="'$(CoreDir)' == ''">$(MSBuildThisFileDirectory)..\deps\BepInEx\core</CoreDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data/restorations.json" LogicalName="LimbusCompanyUnnerfed.restorations.json" />
+    <EmbeddedResource Include="Data/pre-tier4-encounters.json" LogicalName="LimbusCompanyUnnerfed.pre-tier4-encounters.json" />
+    <Reference Include="BepInEx.Core"><HintPath>$(CoreDir)\BepInEx.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP"><HintPath>$(CoreDir)\BepInEx.Unity.IL2CPP.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppInterop.Runtime"><HintPath>$(CoreDir)\Il2CppInterop.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppInterop.Common"><HintPath>$(CoreDir)\Il2CppInterop.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MonoMod.RuntimeDetour"><HintPath>$(CoreDir)\MonoMod.RuntimeDetour.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,74 @@
+name: Build and release
+
+on:
+  workflow_call:
+    inputs:
+      project:
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    outputs:
+      name: ${{ steps.build.outputs.name }}
+      version: ${{ steps.build.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            6.0.x
+            10.0.x
+      - name: Build, test and package
+        id: build
+        shell: pwsh
+        env:
+          BUILD_REF: ${{ github.ref }}
+          BUILD_TAG: ${{ github.ref_name }}
+          BUILD_PROJECT: ${{ inputs.project }}
+        run: |
+          $tag = ''
+          if ($env:BUILD_REF.StartsWith('refs/tags/')) {
+            $parts = $env:BUILD_TAG.Split('/')
+            if ($parts.Count -ne 2 -or $parts[0] -ne $env:BUILD_PROJECT) { throw 'Tag does not match the selected project.' }
+            $tag = $parts[1]
+          }
+          ./LimbusBuild/scripts/Build-Release.ps1 -Repository (Join-Path $env:GITHUB_WORKSPACE $env:BUILD_PROJECT) -Tag $tag
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-assets-${{ inputs.project }}
+          path: |
+            ${{ inputs.project }}/artifacts/${{ steps.build.outputs.name }}-${{ steps.build.outputs.version }}.zip
+            ${{ inputs.project }}/artifacts/${{ steps.build.outputs.name }}-${{ steps.build.outputs.version }}.sha256
+          if-no-files-found: error
+          retention-days: 14
+
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/Limbus') && github.event_name == 'push'
+    runs-on: windows-2022
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-assets-${{ inputs.project }}
+          path: release-assets
+      - name: Publish GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+          RELEASE_NAME: ${{ needs.build.outputs.name }}
+          RELEASE_VERSION: ${{ needs.build.outputs.version }}
+        run: |
+          $assets = @(Get-ChildItem release-assets -File | ForEach-Object FullName)
+          $arguments = @('release','create',$env:RELEASE_TAG,'--verify-tag','--generate-notes','--title',"$env:RELEASE_NAME $env:RELEASE_VERSION")
+          if ($env:RELEASE_VERSION.Contains('-')) { $arguments += '--prerelease' }
+          & gh @arguments @assets
+          if ($LASTEXITCODE -ne 0) { throw 'GitHub Release publication failed.' }

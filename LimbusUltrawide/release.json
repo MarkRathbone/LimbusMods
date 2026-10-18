@@ -1,0 +1,10 @@
+{
+  "name": "LimbusUltrawide",
+  "kind": "plugin",
+  "project": "src/LimbusUltrawide.csproj",
+  "packageFiles": [
+    "README.md",
+    "Install.ps1"
+  ],
+  "tests": "tests/LayoutTests.csproj"
+}

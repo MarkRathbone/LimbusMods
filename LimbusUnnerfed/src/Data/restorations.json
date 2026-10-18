@@ -1,0 +1,5840 @@
+{
+  "schemaVersion": 1,
+  "stageIds": [
+    10218,
+    10348,
+    10506,
+    10509,
+    10510,
+    10512,
+    10513,
+    10514,
+    10515,
+    10516,
+    10635,
+    10637,
+    10638,
+    10639,
+    10640,
+    10641,
+    10642,
+    10644,
+    10645,
+    10648,
+    10801,
+    10802,
+    10807,
+    10808,
+    10812,
+    10816,
+    10819,
+    10821,
+    10823,
+    10827,
+    10830,
+    10835,
+    10836,
+    10837,
+    10838,
+    10839,
+    11036,
+    11039,
+    11041
+  ],
+  "patches": [
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "1",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "2",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "3",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "4",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "5",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810101,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "6",
+        "value"
+      ],
+      "expected": 0.7,
+      "restored": 0.2,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "breakSection",
+        "sectionList"
+      ],
+      "expected": [
+        50
+      ],
+      "restored": [],
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "defCorrection"
+      ],
+      "expected": -5,
+      "restored": 0,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 12,
+      "restored": 12.64,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 0.7,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "3",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "4",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "5",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 0.7,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810102,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "6",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810301,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 300,
+      "restored": 366,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810301,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 15,
+      "restored": 18.94,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810301,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810401,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 200,
+      "restored": 217,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810401,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 6.5,
+      "restored": 7.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810401,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810501,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 250,
+      "restored": 271,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810501,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 9,
+      "restored": 9.36,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810501,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810601,
+      "path": [
+        "breakSection",
+        "sectionList"
+      ],
+      "expected": [
+        50,
+        0,
+        -20
+      ],
+      "restored": [
+        40,
+        0,
+        -20
+      ],
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810601,
+      "path": [
+        "defCorrection"
+      ],
+      "expected": -3,
+      "restored": 3,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810601,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 280,
+      "restored": 302,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810601,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 9.5,
+      "restored": 11.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810601,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 810601,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "3",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 811001,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.75,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 811101,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.75,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 811201,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 300,
+      "restored": 366,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 811201,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 15.8,
+      "restored": 18.94,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 811201,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8103,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 300,
+      "restored": 366,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8103,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 15,
+      "restored": 18.94,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8104,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 200,
+      "restored": 217,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8104,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 6.5,
+      "restored": 7.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8105,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 250,
+      "restored": 271,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8105,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 9,
+      "restored": 9.36,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8106,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 280,
+      "restored": 302,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8106,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 9.5,
+      "restored": 11.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8106,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8106,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8106,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "5",
+        "value"
+      ],
+      "expected": 1.5,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8106,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "6",
+        "value"
+      ],
+      "expected": 1.5,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81062,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 280,
+      "restored": 355,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81062,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 9.5,
+      "restored": 11.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81062,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81062,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81062,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81062,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "4",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81063,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 280,
+      "restored": 355,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81063,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 9.5,
+      "restored": 11.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81063,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81063,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1.2,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81063,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 81063,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "4",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8112,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 300,
+      "restored": 366,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8112,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 15.8,
+      "restored": 18.94,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8112,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.5,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8112,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1.5,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "unit",
+      "id": 8112,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "6",
+        "value"
+      ],
+      "expected": 1.25,
+      "restored": 1,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810504,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810504,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810504,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810504,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 2,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810505,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810505,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810505,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "2",
+        "scale"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810505,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810505,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 2,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810506,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 8,
+      "restored": 10,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810506,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810601,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810604,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 4,
+      "restored": 5,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810604,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 4,
+      "restored": 5,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810605,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 8,
+      "restored": 10,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810605,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": -3,
+      "restored": 0,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810608,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 5,
+      "restored": 8,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810609,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810609,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810609,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "2",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810609,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "3",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810609,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "4",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810609,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": -3,
+      "restored": 0,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810610,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": -3,
+      "restored": -1,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810611,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 5,
+      "restored": 8,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810611,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 10,
+      "restored": 12,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810611,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 2,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810612,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c5"
+    },
+    {
+      "kind": "skill",
+      "id": 810612,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": -5,
+      "restored": 0,
+      "source": "c5"
+    },
+    {
+      "kind": "part",
+      "id": 816602,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816602,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816602,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816602,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816602,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "3",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816701,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816701,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816701,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816801,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816801,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816801,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816901,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816901,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 816901,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817001,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817001,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817001,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817101,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 700,
+      "restored": 866,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817101,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 28,
+      "restored": 29.86,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817201,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 901,
+      "restored": 991,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817201,
+      "path": [
+        "maxSpeedList",
+        "0"
+      ],
+      "expected": 4,
+      "restored": 5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817201,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817201,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817201,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817201,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817201,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "3",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "breakSection",
+        "sectionList"
+      ],
+      "expected": [
+        78,
+        45,
+        0
+      ],
+      "restored": [
+        75,
+        45,
+        0
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 901,
+      "restored": 991,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "maxSpeedList",
+        "0"
+      ],
+      "expected": 4,
+      "restored": 5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817301,
+      "path": [
+        "resistInfo",
+        "attributeResistList",
+        "3",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817401,
+      "path": [
+        "maxSpeedList",
+        "0"
+      ],
+      "expected": 4,
+      "restored": 5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817401,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817401,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 817401,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 819201,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 819201,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 819201,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 819301,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 819301,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 819301,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821401,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821401,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821401,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821501,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821501,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821501,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 0.8,
+      "restored": 0.5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821601,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821601,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821601,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821701,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821701,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821701,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821801,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821801,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821801,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821901,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "0",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821901,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "1",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "part",
+      "id": 821901,
+      "path": [
+        "resistInfo",
+        "atkResistList",
+        "2",
+        "value"
+      ],
+      "expected": 1,
+      "restored": 0.9,
+      "source": "c6p3"
+    },
+    {
+      "kind": "unit",
+      "id": 8171,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 700,
+      "restored": 866,
+      "source": "c6p3"
+    },
+    {
+      "kind": "unit",
+      "id": 8171,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 28,
+      "restored": 29.86,
+      "source": "c6p3"
+    },
+    {
+      "kind": "unit",
+      "id": 8172,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 901,
+      "restored": 991,
+      "source": "c6p3"
+    },
+    {
+      "kind": "unit",
+      "id": 8173,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 901,
+      "restored": 991,
+      "source": "c6p3"
+    },
+    {
+      "kind": "unit",
+      "id": 81732,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 901,
+      "restored": 991,
+      "source": "c6p3"
+    },
+    {
+      "kind": "unit",
+      "id": 81733,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 901,
+      "restored": 991,
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816603,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "0",
+        "coindescs"
+      ],
+      "expected": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+        }
+      ],
+      "restored": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+        },
+        {
+          "desc": "[OnSucceedAttack] Inflict 2 [Paralysis] next turn."
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816603,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "1",
+        "coindescs"
+      ],
+      "expected": [
+        {
+          "desc": "[OnSucceedAttack] Gain 1 Attack Power Up next turn"
+        },
+        {
+          "desc": "[EnemyKill] Gain 2 Attack Power Up next turn"
+        }
+      ],
+      "restored": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+        },
+        {
+          "desc": "[OnSucceedAttack] Gain 1 Attack Power Up next turn"
+        },
+        {
+          "desc": "[EnemyKill] Gain 2 Attack Power Up next turn"
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816605,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "0",
+        "coindescs"
+      ],
+      "expected": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 1 [DefenseDown]"
+        },
+        {
+          "desc": "[OnSucceedAttackHead] If the target has 8+ [Laceration], the last Coin deals +30% more damage"
+        }
+      ],
+      "restored": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown]"
+        },
+        {
+          "desc": "[OnSucceedAttackHead] If the target has 8+ [Laceration], the last Coin deals +30% more damage"
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816605,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "1",
+        "coindescs"
+      ],
+      "expected": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 1 [DefenseDown]"
+        },
+        {
+          "desc": "[OnSucceedAttackHead] If the target has 8+ [Laceration], the last Coin deals +30% more damage"
+        }
+      ],
+      "restored": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown]"
+        },
+        {
+          "desc": "[OnSucceedAttackHead] If the target has 8+ [Laceration], the last Coin deals +30% more damage"
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816605,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "2",
+        "coindescs"
+      ],
+      "expected": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 1 [DefenseDown]"
+        },
+        {
+          "desc": "[OnSucceedAttackHead] If the target has 8+ [Laceration], the last Coin deals +30% more damage"
+        }
+      ],
+      "restored": [
+        {
+          "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown]"
+        },
+        {
+          "desc": "[OnSucceedAttackHead] If the target has 8+ [Laceration], the last Coin deals +30% more damage"
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816605,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "3",
+        "coindescs"
+      ],
+      "expected": [
+        {
+          "desc": "[OnSucceedAttack] If this Skill flips all Heads, inflict 2 [Vulnerable] next turn"
+        }
+      ],
+      "restored": [
+        {
+          "desc": "[OnSucceedAttack] Deal 20 SP damage"
+        },
+        {
+          "desc": "[OnSucceedAttack] If this Skill flips all Heads, inflict 5 [Vulnerable] next turn"
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816605,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "[WhenUse] Base Power +1 for every 5 [Laceration] on target (max 3)\n[WhenUse] Clash Power +1 for every negative effect on target (max 2)\n[DefeatDuel] Gain 20 [DefenseDown]\n[DefeatDuel] Gain 1 Fettered Woe",
+      "restored": "[WhenUse] Base Power +1 for every 4 [Laceration] on target (max 3)\n[WhenUse] Clash Power +1 for every negative effect on target (max 2)\n[DefeatDuel] Gain 10 [DefenseDown]\n[DefeatDuel] Gain 1 Fettered Woe",
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816606,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "3",
+        "coindescs"
+      ],
+      "expected": [
+        {
+          "desc": "[OnSucceedAttack] If every Coin of this Skill hits, reuse this Coin (1 time max)"
+        }
+      ],
+      "restored": [
+        {
+          "desc": "[OnSucceedAttack] Deal 15 SP damage"
+        },
+        {
+          "desc": "[OnSucceedAttack] If every Coin of this Skill hits, reuse this Coin (1 time max)"
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 816606,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "[WhenUse] Base Power +1 for every 5 [Laceration] on target (max 4)\n[WhenUse] Clash Power +1 for every negative effect on target (max 2)\n[DefeatDuel] If target has [AaCfPcBg], raise this unit's Stagger Threshold by 100 next turn. If this unit does not have a Stagger threshold, create a new Stagger threshold at 0.",
+      "restored": "[WhenUse] Base Power +1 for every 4 [Laceration] on target (max 4)\n[WhenUse] Clash Power +1 for every negative effect on target (max 2)\n[DefeatDuel] If the target has [AaCfPcBg], raise this unit's Stagger Threshold by 100 next turn. If this unit does not have a Stagger threshold, create a new Stagger threshold at 0.",
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 817205,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "[CantDuel]\n[WhenUse] If the target has [AaCfPbBb], deal -100% less damage",
+      "restored": "[CantDuel]\n[WhenUse] If the target has [AaCfPbBb], deal -50% less damage",
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 817309,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "",
+      "restored": "[CantChangeTarget]",
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 817401,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "",
+      "restored": "[StartBattle] Gain [Thorn]",
+      "source": "c6p3"
+    },
+    {
+      "kind": "text",
+      "id": 819204,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "",
+      "restored": "[CantDuel]",
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816601,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816601,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816602,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816603,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "Vulnerable",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "Vulnerable",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "Paralysis",
+            "target": "Target",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816603,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816603,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "IfAbnormalityAllPartsOrSelf",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "IfAbnormalityAllPartsOrSelf",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "Binding",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "IfAbnormalityAllPartsOrSelf",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "Enhancement",
+            "target": "IfAbnormalityAllPartsOrSelf",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816603,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816603,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816605,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyLeftArm"
+        },
+        {
+          "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit3",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "ParryingPowerResultAdderNegativeCountMax2"
+        },
+        {
+          "scriptName": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "AaCfPcBf",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Self",
+            "stack": 20,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyLeftArm"
+        },
+        {
+          "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit3",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "ParryingPowerResultAdderNegativeCountMax2"
+        },
+        {
+          "scriptName": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "AaCfPcBf",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Self",
+            "stack": 10,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816605,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "LastCoinDmgUpOSAHeadByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Target",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "LastCoinDmgUpOSAHeadByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816605,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "LastCoinDmgUpOSAHeadByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Target",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "LastCoinDmgUpOSAHeadByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816605,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "2",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "LastCoinDmgUpOSAHeadByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "GiveBuffOnSucceedAttack",
+          "buffData": {
+            "buffKeyword": "DefenseDown",
+            "target": "Target",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "LastCoinDmgUpOSAHeadByRatioViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 8,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 0.3
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816605,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "3",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "GiveBuffOnSuccessAttackAllCoinHead",
+          "buffData": {
+            "buffKeyword": "Vulnerable",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "GiveMpDmgOnSucceedAttackTarget20"
+        },
+        {
+          "scriptName": "GiveBuffOnSuccessAttackAllCoinHead",
+          "buffData": {
+            "buffKeyword": "Vulnerable",
+            "target": "Target",
+            "buffOwner": "Target",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 1
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816605,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816606,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit4",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 5,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "ParryingPowerResultAdderNegativeCountMax2"
+        },
+        {
+          "scriptName": "816606",
+          "buffData": {
+            "buffKeyword": "AaCfPcBg",
+            "target": "Self",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 100
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "SkillPowerAdderViaBuffOnUseCheckDevideByStackWithLimit4",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "ParryingPowerResultAdderNegativeCountMax2"
+        },
+        {
+          "scriptName": "816606",
+          "buffData": {
+            "buffKeyword": "AaCfPcBg",
+            "target": "Self",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0,
+            "value": 100
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 816606,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "3",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "RerollOnSAIfAllCoinHitUpto1"
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "GiveMpDmgOnSucceedAttackTarget15"
+        },
+        {
+          "scriptName": "RerollOnSAIfAllCoinHitUpto1"
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817205,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "8172_common"
+        },
+        {
+          "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "AaCfPbBb",
+            "buffOwner": "AbnormalityTarget",
+            "stack": 1,
+            "turn": 0,
+            "value": -1.0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "8172_common"
+        },
+        {
+          "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "AaCfPbBb",
+            "buffOwner": "AbnormalityTarget",
+            "stack": 1,
+            "turn": 0,
+            "value": -0.5
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817205,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817205,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817205,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "2",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817205,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817206,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817304,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817305,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 5,
+      "restored": 8,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817305,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 1,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817306,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 4,
+      "restored": 6,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817306,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 4,
+      "restored": 6,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817306,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 1,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817307,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817307,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817307,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "2",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817309,
+      "path": [
+        "skillData",
+        "0",
+        "canChangeTarget"
+      ],
+      "expected": true,
+      "restored": false,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817309,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "3",
+        "scale"
+      ],
+      "expected": 4,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817309,
+      "path": [
+        "skillData",
+        "0",
+        "skillLevelCorrection"
+      ],
+      "expected": 0,
+      "restored": 3,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817401,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "GiveBuffOnBattleStart",
+          "buffData": {
+            "buffKeyword": "Thorn",
+            "target": "IfAbnormalityAllPartsOrSelf",
+            "buffOwner": "",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 817404,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 8,
+      "restored": 10,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 819202,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 4,
+      "restored": 5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 819202,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 4,
+      "restored": 5,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 819202,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 3,
+      "restored": 4,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 819204,
+      "path": [
+        "skillData",
+        "0",
+        "canDuel"
+      ],
+      "expected": true,
+      "restored": false,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 819205,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 819205,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 10,
+      "restored": 12,
+      "source": "c6p3"
+    },
+    {
+      "kind": "skill",
+      "id": 9002401,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "skill",
+      "id": 9002401,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "skill",
+      "id": 9002401,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "2",
+        "scale"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "skill",
+      "id": 9002402,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "skill",
+      "id": 9002402,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "skill",
+      "id": 9002502,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "skill",
+      "id": 9002502,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 4,
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "unit",
+      "id": 1141,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 173,
+      "restored": 182,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "unit",
+      "id": 1141,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 35.89,
+      "restored": 43.89,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "part",
+      "id": 114101,
+      "path": [
+        "hp",
+        "defaultStat"
+      ],
+      "expected": 173,
+      "restored": 182,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "part",
+      "id": 114101,
+      "path": [
+        "hp",
+        "incrementByLevel"
+      ],
+      "expected": 35.89,
+      "restored": 43.89,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "skill",
+      "id": 114108,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "0",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "skill",
+      "id": 114108,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "1",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "skill",
+      "id": 114108,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "2",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "skill",
+      "id": 114108,
+      "path": [
+        "skillData",
+        "0",
+        "coinList",
+        "3",
+        "scale"
+      ],
+      "expected": 2,
+      "restored": 3,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "skill",
+      "id": 114109,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList",
+        "1",
+        "buffData",
+        "value"
+      ],
+      "expected": -2,
+      "restored": -1,
+      "source": "kong-qiu-wiki-107021"
+    },
+    {
+      "kind": "skill",
+      "id": 152103,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "OverwriteToSuperCoinOnBattleStartIfAbnormalitySelfHpRatioLessThanValue",
+          "value": 0.5
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "TargetNotBreakOnLoseDuel"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "OverwriteToSuperCoinOnBattleStartIfAbnormalitySelfHpRatioLessThanValue",
+          "value": 0.5
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "TargetNotBreakOnLoseDuel"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 152104,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "OverwriteToSuperCoinOnBattleStartIfAbnormalitySelfHpRatioLessThanValue",
+          "value": 0.5
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+          "value": -0.8
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "OverwriteToSuperCoinOnBattleStartIfAbnormalitySelfHpRatioLessThanValue",
+          "value": 0.5
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckAndUse",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "buffOwner": "Self",
+            "stack": 0,
+            "turn": 10,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "Charge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 10,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+          "value": -0.8
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151701,
+      "path": [
+        "skillData",
+        "0",
+        "coinList"
+      ],
+      "expected": [
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "restored": [
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151706,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "CanDuelRegardlessSpeed"
+        },
+        {
+          "scriptName": "NotBreakUntilThisSkill"
+        },
+        {
+          "scriptName": "RecoverMpOnStartTurn151706_2",
+          "value": 15
+        },
+        {
+          "scriptName": "ParryingResultAdderOnStartTurn151706",
+          "value": -3
+        },
+        {
+          "scriptName": "AttackDmgDownAndTargetIgnoreBreakOnLoseDuel",
+          "value": 0.8
+        },
+        {
+          "scriptName": "GiveDreamBuffOnLoseDuel1517",
+          "buffData": {
+            "buffKeyword": "BuffetDream"
+          }
+        },
+        {
+          "scriptName": "LoseBuffStackAndGiveBuffOnEndAttack151706",
+          "buffData": {
+            "buffKeyword": "BuffetResolve",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "ChangePhase2OnEndAttack151706",
+          "value": 3
+        },
+        {
+          "scriptName": "1517ShowSkillIfPhase1"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "NotBreakUntilThisSkill"
+        },
+        {
+          "scriptName": "RecoverMpOnStartTurn151706_2",
+          "value": 15
+        },
+        {
+          "scriptName": "ParryingResultAdderOnStartTurn151706",
+          "value": -3
+        },
+        {
+          "scriptName": "AttackDmgDownAndTargetIgnoreBreakOnLoseDuel",
+          "value": 0.8
+        },
+        {
+          "scriptName": "GiveDreamBuffOnLoseDuel1517",
+          "buffData": {
+            "buffKeyword": "BuffetDream"
+          }
+        },
+        {
+          "scriptName": "LoseBuffStackAndGiveBuffOnEndAttack151706",
+          "buffData": {
+            "buffKeyword": "BuffetResolve",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "ChangePhase2OnEndAttack151706",
+          "value": 3
+        },
+        {
+          "scriptName": "1517ShowSkillIfPhase1"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151706,
+      "path": [
+        "skillData",
+        "0",
+        "coinList"
+      ],
+      "expected": [
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ForceToActivateBuffOSAIfUsableInDuel",
+              "value": 3,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 1
+              }
+            }
+          ]
+        }
+      ],
+      "restored": [
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ForceToActivateBuffOSAIfUsableInDuel",
+              "value": 3,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 1
+              }
+            }
+          ]
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151708,
+      "path": [
+        "skillData",
+        "0",
+        "coinList"
+      ],
+      "expected": [
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "restored": [
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "BoneNail",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151709,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "CanDuelRegardlessSpeed"
+        },
+        {
+          "scriptName": "NotBreakUntilThisSkill"
+        },
+        {
+          "scriptName": "OverwriteToSuperCoinLessThanOrEqualBuffStack",
+          "buffData": {
+            "buffKeyword": "BuffetDream",
+            "buffOwner": "AbnormalitySelf",
+            "stack": 4
+          }
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "BuffetScruple",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": -3
+          }
+        },
+        {
+          "scriptName": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 3
+          }
+        },
+        {
+          "scriptName": "AttackDmgDownAndTargetIgnoreBreakOnLoseDuel",
+          "value": 0.95
+        },
+        {
+          "scriptName": "GiveDreamBuffOnLoseDuel1517",
+          "buffData": {
+            "buffKeyword": "BuffetDream"
+          }
+        },
+        {
+          "scriptName": "ClearGimmickOnLoseDuel151709"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "CanDuelRegardlessSpeed"
+        },
+        {
+          "scriptName": "NotBreakUntilThisSkill"
+        },
+        {
+          "scriptName": "OverwriteToSuperCoinLessThanOrEqualBuffStack",
+          "buffData": {
+            "buffKeyword": "BuffetDream",
+            "buffOwner": "AbnormalitySelf",
+            "stack": 4
+          }
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "BuffetScruple",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": -3
+          }
+        },
+        {
+          "scriptName": "SkillPowerResultAdderOnUseViaBuffDevide",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 2,
+            "limit": 6
+          }
+        },
+        {
+          "scriptName": "AttackDmgDownAndTargetIgnoreBreakOnLoseDuel",
+          "value": 0.8
+        },
+        {
+          "scriptName": "GiveDreamBuffOnLoseDuel1517",
+          "buffData": {
+            "buffKeyword": "BuffetDream"
+          }
+        },
+        {
+          "scriptName": "ClearGimmickOnLoseDuel151709"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151710,
+      "path": [
+        "skillData",
+        "0",
+        "defaultValue"
+      ],
+      "expected": 5,
+      "restored": 8,
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151710,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 6,
+            "turn": 0,
+            "value": 1
+          }
+        },
+        {
+          "scriptName": "TargetNumAdderOnStartTurn151710",
+          "buffData": {
+            "buffKeyword": "BoneNail",
+            "buffOwner": "",
+            "target": "",
+            "stack": 5,
+            "value": 1,
+            "limit": 3
+          }
+        },
+        {
+          "scriptName": "AttackDmgDownAndTargetIgnoreBreakOnLoseDuel",
+          "value": 0.8
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStack",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "buffOwner": "Target",
+            "stack": 4,
+            "turn": 0,
+            "value": 1,
+            "limit": 2
+          }
+        },
+        {
+          "scriptName": "TargetNumAdderOnStartTurn151710",
+          "buffData": {
+            "buffKeyword": "BoneNail",
+            "buffOwner": "",
+            "target": "",
+            "stack": 5,
+            "value": 1,
+            "limit": 4
+          }
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151710,
+      "path": [
+        "skillData",
+        "0",
+        "coinList"
+      ],
+      "expected": [
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "OnSucceedAttack151710",
+              "value": 0.05,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": -1,
+                "limit": 3,
+                "value": 4,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "restored": [
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "color": "GREY",
+          "grade": 2,
+          "operatorType": "ADD",
+          "scale": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "OnSucceedAttack151710",
+              "value": 0.1,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": -1,
+                "limit": 5,
+                "value": 4,
+                "activeRound": 0
+              }
+            }
+          ]
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151713,
+      "path": [
+        "skillData",
+        "0",
+        "abilityScriptList"
+      ],
+      "expected": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "CanDuelRegardlessSpeed"
+        },
+        {
+          "scriptName": "NotBreakUntilThisSkill"
+        },
+        {
+          "scriptName": "GiveMpDamageOnStartTurn151713",
+          "value": 20
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "BuffetScruple",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": -3
+          }
+        },
+        {
+          "scriptName": "AttackDmgDownAndTargetIgnoreBreakOnLoseDuel",
+          "value": 0.8
+        },
+        {
+          "scriptName": "GiveDreamBuffOnLoseDuel1517",
+          "buffData": {
+            "buffKeyword": "BuffetDream"
+          }
+        },
+        {
+          "scriptName": "LoseBuffStackAndGiveBuffOnEndAttack151706",
+          "buffData": {
+            "buffKeyword": "BuffetResolve",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "1517ShowSkillIfPhase0"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "scriptName": "EmptyBody"
+        },
+        {
+          "scriptName": "NotBreakUntilThisSkill"
+        },
+        {
+          "scriptName": "GiveMpDamageOnStartTurn151713",
+          "value": 10
+        },
+        {
+          "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+          "buffData": {
+            "buffKeyword": "BuffetScruple",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0,
+            "value": -2
+          }
+        },
+        {
+          "scriptName": "AttackDmgDownAndTargetIgnoreBreakOnLoseDuel",
+          "value": 0.8
+        },
+        {
+          "scriptName": "GiveDreamBuffOnLoseDuel1517",
+          "buffData": {
+            "buffKeyword": "BuffetDream"
+          }
+        },
+        {
+          "scriptName": "LoseBuffStackAndGiveBuffOnEndAttack151706",
+          "buffData": {
+            "buffKeyword": "BuffetResolve",
+            "target": "Target",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "scriptName": "1517ShowSkillIfPhase0"
+        },
+        {
+          "scriptName": "KeywordForUI",
+          "buffData": {
+            "buffKeyword": "ChargeRouge",
+            "target": "Self",
+            "stack": 0,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "skill",
+      "id": 151713,
+      "path": [
+        "skillData",
+        "0",
+        "coinList"
+      ],
+      "expected": [
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ForceToActivateBuffOSAIfUsableInDuel",
+              "value": 3,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 1
+              }
+            }
+          ]
+        }
+      ],
+      "restored": [
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 2,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            }
+          ]
+        },
+        {
+          "operatorType": "ADD",
+          "scale": 4,
+          "color": "GREY",
+          "grade": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "SuperCoin"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedAttack",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "ForceToActivateBuffOSAIfUsableInDuel",
+              "value": 3,
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Target",
+                "stack": 0,
+                "turn": 1
+              }
+            }
+          ]
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "buff:BoneNail",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "SpeedAdderAsStack",
+          "value": -1
+        },
+        {
+          "ability": "BoneNail",
+          "value": 0.2
+        },
+        {
+          "ability": "GiveBuffOnUseDefaultAttackSkill",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Self",
+            "stack": 0,
+            "turn": -1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "restored": [
+        {
+          "ability": "SpeedAdderAsStack",
+          "value": -1
+        },
+        {
+          "ability": "BoneNail",
+          "value": 0.2
+        },
+        {
+          "ability": "GiveBuffOnUseDefaultAttackSkill",
+          "value": 2,
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Self",
+            "stack": 0,
+            "turn": -1,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "buff:BuffetScruple",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "MinSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "MaxSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "RecoverSelfMpOnRoundStart",
+          "value": 15
+        },
+        {
+          "ability": "TakeFinalDmgMultiplierFromUnit1517",
+          "value": -0.75
+        },
+        {
+          "ability": "ActivateBuffEffect"
+        }
+      ],
+      "restored": [
+        {
+          "ability": "MinSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "MaxSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "TakeFinalDmgMultiplierFromUnit1517",
+          "value": -0.5
+        },
+        {
+          "ability": "ActivateBuffEffect"
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "buff:MeursaultBuffetEnd",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "MinSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "MaxSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "SkillPowerResultAdder",
+          "value": 3
+        },
+        {
+          "ability": "AddSinStockOnStartTurnBySkillAttributeTypeLimit",
+          "buffData": {
+            "value": 2,
+            "limit": 2
+          }
+        },
+        {
+          "ability": "CanNotRetreat"
+        },
+        {
+          "ability": "TakingOtherStoryImmortalAbility"
+        }
+      ],
+      "restored": [
+        {
+          "ability": "MinSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "MaxSpeedAdder",
+          "value": 3
+        },
+        {
+          "ability": "AddSinStockOnStartTurnBySkillAttributeTypeLimit",
+          "buffData": {
+            "value": 2,
+            "limit": 2
+          }
+        },
+        {
+          "ability": "CanNotRetreat"
+        },
+        {
+          "ability": "TakingOtherStoryImmortalAbility"
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "buff:BuffetResolve",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "RecoverSelfMpOnRoundStart",
+          "value": 15
+        },
+        {
+          "ability": "BuffetResolve_30_0",
+          "value": 0.3
+        },
+        {
+          "ability": "ActivateBuffEffect"
+        }
+      ],
+      "restored": [
+        {
+          "ability": "RecoverSelfMpOnRoundStart",
+          "value": 5
+        },
+        {
+          "ability": "BuffetResolve_30_30",
+          "value": 0.3
+        },
+        {
+          "ability": "ActivateBuffEffect"
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "buff:BuffetRouge",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "MinSpeedAdder",
+          "value": 1
+        },
+        {
+          "ability": "MaxSpeedAdder",
+          "value": 1
+        },
+        {
+          "ability": "TakeSinBuffDamageMultiplier",
+          "value": -0.5,
+          "buffData": {
+            "buffKeyword": "Laceration"
+          }
+        },
+        {
+          "ability": "BuffetRouge"
+        },
+        {
+          "ability": "LoseStackOnRoundEnd",
+          "value": 1
+        },
+        {
+          "ability": "ActivateBuffEffectSkin",
+          "value": 1
+        }
+      ],
+      "restored": [
+        {
+          "ability": "MinSpeedAdder",
+          "value": 1
+        },
+        {
+          "ability": "MaxSpeedAdder",
+          "value": 1
+        },
+        {
+          "ability": "TakeSinBuffDamageMultiplier",
+          "value": -0.5,
+          "buffData": {
+            "buffKeyword": "Laceration"
+          }
+        },
+        {
+          "ability": "BuffetRouge"
+        },
+        {
+          "ability": "LoseStackOnRoundEnd",
+          "value": 1
+        },
+        {
+          "ability": "ActivateBuffEffectSkin",
+          "value": 1
+        },
+        {
+          "ability": "ParryingPowerResultAdderAsStack",
+          "value": 1
+        }
+      ],
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "passive",
+      "id": 151705,
+      "path": [
+        "controlValueList",
+        "5"
+      ],
+      "expected": 1,
+      "restored": 2,
+      "source": "canto10-official-oct8"
+    },
+    {
+      "kind": "bufftext:MeursaultBuffetEnd",
+      "id": 0,
+      "path": [
+        "desc"
+      ],
+      "expected": "- Min & Max Speed +3\n- Final Power +3\n- On Skill Use, gain 2 additional E.G.O Resource for the said Skill's Affinity (2 times per turn)\n- Cannot Retreat",
+      "restored": "- Min & Max Speed +3\n- On Skill Use, gain 2 additional E.G.O Resource for the said Skill's Affinity (2 times per turn)\n- Cannot Retreat",
+      "source": "reviewed-passive-buff-text"
+    },
+    {
+      "kind": "bufftext:BuffetResolve",
+      "id": 0,
+      "path": [
+        "desc"
+      ],
+      "expected": "- Max Stack: 1\n- Deal +30% damage to The Crimson God [Adulthood]\n- Turn Start: Heal 15 SP",
+      "restored": "- Max Stack: 1\n- Deal and take +30% damage against The Crimson God [Adulthood]\n- Turn Start: Heal 5 SP",
+      "source": "reviewed-passive-buff-text"
+    },
+    {
+      "kind": "bufftext:BuffetScruple",
+      "id": 0,
+      "path": [
+        "desc"
+      ],
+      "expected": "- Min & Max Speed +3\n- Turn Start: Heal 15 SP\n- Take -75% final damage from The Crimson God [Adulthood]",
+      "restored": "- Min & Max Speed +3\n- Take -50% final damage from The Crimson God [Adulthood]",
+      "source": "reviewed-passive-buff-text"
+    },
+    {
+      "kind": "bufftext:BuffetRouge",
+      "id": 0,
+      "path": [
+        "desc"
+      ],
+      "expected": "- Max Stack: 3\n- Min & Max Speed +1\n- Take -50% damage from Bleed\n- Cannot be defeated by Bleed damage\n- Turn End: Lose 1 Stack",
+      "restored": "- Max Stack: 3\n- Clash Power +1 per Stack\n- Min & Max Speed +1\n- Take -50% damage from Bleed\n- Cannot be defeated by Bleed damage\n- Turn End: Lose 1 Stack",
+      "source": "reviewed-passive-buff-text"
+    },
+    {
+      "kind": "passivetext:152101",
+      "id": 0,
+      "path": [
+        "desc"
+      ],
+      "expected": "Gain 1 [ChargeRouge] Potency for every 10 cumulative [ChargeRouge] Count this unit consumes in this Encounter\n\nOn Skill Use, at 3+ [ChargeRouge] Potency, Coin Power +1\n\nGain 1 Offense Level (max 3) and deal +20% damage (max 60%) for every 20% missing HP",
+      "restored": "Gain 1 [ChargeRouge] Potency for every 10 cumulative [ChargeRouge] Count this unit consumes in this Encounter\n\nOn Skill Use, at 2+ [ChargeRouge] Potency, Coin Power +1; at 4+ Potency, Coin Power +2\n\nGain 1 Offense Level (max 5) and deal +20% damage (max 100%) for every 10% missing HP",
+      "source": "reviewed-passive-buff-text"
+    },
+    {
+      "kind": "passivetext:151705",
+      "id": 0,
+      "path": [
+        "desc"
+      ],
+      "expected": "Turn Start: If this unit does not have [BuffetRouge] and is at 15+ [ChargeRouge] Count, consume all [ChargeRouge] Count and gain up to max [BuffetRouge] Stack; then, heal 2 SP for every [ChargeRouge] Count consumed\n\nOn Skill Use, if this unit does not have [BuffetRouge] and is at 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1",
+      "restored": "Turn Start: If this unit does not have [BuffetRouge] and is at 15+ [ChargeRouge] Count, consume all [ChargeRouge] Count and gain up to max [BuffetRouge] Stack; then, heal 2 SP for every [ChargeRouge] Count consumed\n\nOn Skill Use, if this unit does not have [BuffetRouge] and is at 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +2",
+      "source": "reviewed-passive-buff-text"
+    },
+    {
+      "kind": "passivetext:802903",
+      "id": 0,
+      "path": [
+        "desc"
+      ],
+      "expected": "At the start of the turn, if the unbroken part has Bleed or Burn, heal 15% of Max HP and gain 3 Attack Power Up.\nThe healing and status effects gained are decreased based on the number of A Sign, down to 0.",
+      "restored": "At the start of the turn, if the unbroken part has Bleed or Burn, heal 15% of Max HP and gain 3 Attack Power Up.",
+      "source": "reviewed-passive-buff-text"
+    },
+    {
+      "kind": "text",
+      "id": 114109,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "Prioritizes Hong Lu\nCoin Power -2 for every [Teaching] on target\n[DefeatDuel] Cannot Stagger with this attack. Gain 24 [DefenseDown] for this Encounter\n[DefeatDuel] Deal -50% damage",
+      "restored": "Prioritizes Hong Lu\nCoin Power -1 for every [Teaching] on target\n[DefeatDuel] Cannot Stagger with this attack. Gain 15 [DefenseDown] for this Encounter\n[DefeatDuel] Deal -50% damage",
+      "source": "reviewed-canto10-text"
+    },
+    {
+      "kind": "text",
+      "id": 151701,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "1",
+        "coindescs",
+        "0",
+        "desc"
+      ],
+      "expected": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration]",
+      "restored": "[OnSucceedAttack] Inflict 1 [Laceration]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151709,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "Can Clash with this Skill regardless of Speed\nCannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If this unit has fewer than 5 [BuffetDream], convert all Coins on this Skill to [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple]</u></b></mark></color>, Coin Power -3\n[WhenUse] Final Power +1 for every 4 [Laceration] on the main target (max 3)\n[DefeatDuel] Deal -95% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>",
+      "restored": "Can Clash with this Skill regardless of Speed\nCannot be Staggered before using this Skill\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If this unit has fewer than 5 [BuffetDream], convert all Coins on this Skill to [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the main target has [BuffetScruple]</u></b></mark></color>, Coin Power -3\n[WhenUse] Final Power +2 for every 6 [Laceration] on the main target (max 6)\n[DefeatDuel] Deal -80% damage, damage dealt by this Skill cannot Stagger the target, <color=#ff6000><mark=#ff000040><b><u>and gain 1 [BuffetDream]</u></b></mark></color>",
+      "source": "reviewed-canto10-text"
+    },
+    {
+      "kind": "text",
+      "id": 151708,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "1",
+        "coindescs",
+        "1",
+        "desc"
+      ],
+      "expected": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [BoneNail]",
+      "restored": "[OnSucceedAttack] Inflict 1 [BoneNail]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151708,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "2",
+        "coindescs",
+        "1",
+        "desc"
+      ],
+      "expected": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [BoneNail]",
+      "restored": "[OnSucceedAttack] Inflict 1 [BoneNail]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151706,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "Can Clash with this Skill regardless of Speed\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Heal 15 SP and gain Clash Power +2 for every Le Rouge Senior Staff</u></b></mark></color> on the field\n[WhenUse] If <color=#ff6000><mark=#ff000040><b><u>all Le Rouge Senior Staff are defeated</u></b></mark></color>, Clash Power -3\n[DefeatDuel] \n- <color=#ff6000><mark=#ff000040><b><u>Gain 1 [BuffetDream].</u></b></mark></color>\n- Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
+      "restored": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Heal 15 SP and gain Clash Power +2 for every Le Rouge Senior Staff</u></b></mark></color> on the field\n[WhenUse] If <color=#ff6000><mark=#ff000040><b><u>all Le Rouge Senior Staff are defeated</u></b></mark></color>, Clash Power -3\n[DefeatDuel] \n- <color=#ff6000><mark=#ff000040><b><u>Gain 1 [BuffetDream].</u></b></mark></color>\n- Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
+      "source": "reviewed-canto10-text"
+    },
+    {
+      "kind": "text",
+      "id": 151706,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "1",
+        "coindescs",
+        "1",
+        "desc"
+      ],
+      "expected": "[OnSucceedAttack] Inflict 1 [Laceration]",
+      "restored": "[OnSucceedAttack] Inflict 2 [Laceration]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151706,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "2",
+        "coindescs",
+        "1",
+        "desc"
+      ],
+      "expected": "[OnSucceedAttack] Inflict 1 [Laceration]",
+      "restored": "[OnSucceedAttack] Inflict 2 [Laceration]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151713,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "Can Clash with this Skill regardless of Speed\n\n[WhenUse] If <color=#ff6000><mark=#ff000040><b><u>the main target has [BuffetScruple]</u></b></mark></color>, lose 20 SP and Coin Power -3\n[DefeatDuel] \n- <color=#ff6000><mark=#ff000040><b><u>Gain 1 [BuffetDream].</u></b></mark></color>\n- Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
+      "restored": "[WhenUse] If <color=#ff6000><mark=#ff000040><b><u>the main target has [BuffetScruple]</u></b></mark></color>, lose 10 SP and Coin Power -2\n[DefeatDuel] \n- <color=#ff6000><mark=#ff000040><b><u>Gain 1 [BuffetDream].</u></b></mark></color>\n- Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] Convert [BuffetScruple] on the main target into [BuffetResolve]",
+      "source": "reviewed-canto10-text"
+    },
+    {
+      "kind": "text",
+      "id": 151713,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "1",
+        "coindescs",
+        "1",
+        "desc"
+      ],
+      "expected": "[OnSucceedAttack] Inflict 1 [Laceration]",
+      "restored": "[OnSucceedAttack] Inflict 2 [Laceration]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151713,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "2",
+        "coindescs",
+        "1",
+        "desc"
+      ],
+      "expected": "[OnSucceedAttack] Inflict 1 [Laceration]",
+      "restored": "[OnSucceedAttack] Inflict 2 [Laceration]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151710,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "[DuelCounter]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Gain +1 Atk Weight for every 5 total sum of [BoneNail] on all enemies</u></b></mark></color> (max 3)\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+      "restored": "[DuelCounter]\n[WhenUse] Coin Power +1 for every 4 [Laceration] on target (max 2)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Gain +1 Atk Weight for every 5 total sum of [BoneNail] on all enemies</u></b></mark></color> (max 4)",
+      "source": "reviewed-canto10-text"
+    },
+    {
+      "kind": "text",
+      "id": 151710,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "1",
+        "coindescs",
+        "1",
+        "desc"
+      ],
+      "expected": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration]",
+      "restored": "[OnSucceedAttack] Inflict 1 [Laceration]",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151710,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "2",
+        "coindescs",
+        "2",
+        "desc"
+      ],
+      "expected": "[OnSucceedAttack] Deal Lust damage equal to ([BoneNail] Stack consumed x 5)% of this Coin's final damage",
+      "restored": "[OnSucceedAttack] Deal Lust damage equal to ([BoneNail] Stack consumed x 10)% of this Coin's final damage",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 151710,
+      "path": [
+        "levelList",
+        "0",
+        "coinlist",
+        "2",
+        "coindescs",
+        "3",
+        "desc"
+      ],
+      "expected": "[OnSucceedAttack] Inflict +1 [Laceration] Count for every 4 [BoneNail] consumed (max 3)",
+      "restored": "[OnSucceedAttack] Inflict +1 [Laceration] Count for every 4 [BoneNail] consumed (max 5)",
+      "source": "reviewed-canto10-coin-text"
+    },
+    {
+      "kind": "text",
+      "id": 152104,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1\n[WinDuel] Gain +10 [ChargeRouge] Count\n[DefeatDuel] Deal -80% damage; damage dealt by this Skill cannot Stagger the target",
+      "restored": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1\n[WinDuel] Gain +10 [ChargeRouge] Count\n[DefeatDuel] Deal -80% damage; damage dealt by this Skill cannot Stagger the target",
+      "source": "reviewed-canto10-text"
+    },
+    {
+      "kind": "text",
+      "id": 152103,
+      "path": [
+        "levelList",
+        "0",
+        "desc"
+      ],
+      "expected": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+      "restored": "[StartBattle] If this unit has less than 50% HP, convert all Coins on this Skill to [SuperCoin]\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[WhenUse] At 10+ [ChargeRouge] Count, consume 10 [ChargeRouge] Count to gain Coin Power +1\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+      "source": "reviewed-canto10-text"
+    },
+    {
+      "kind": "stage",
+      "id": 10218,
+      "path": [
+        "waveList"
+      ],
+      "expected": [
+        {
+          "battleMapInfo": {
+            "mapName": "OrientalCorridor"
+          },
+          "unitList": [
+            {
+              "unitID": 90024,
+              "unitCount": 2,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90025,
+              "unitCount": 2,
+              "unitLevel": 13
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp2_Ally_2",
+            "Battle_Cp2_Enemy_2"
+          ],
+          "enemyPositionID": 18,
+          "subUnitList": [
+            {
+              "unitID": 90024,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90025,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90024,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90025,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90024,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90025,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 91004,
+              "unitCount": 1,
+              "unitLevel": 13
+            }
+          ]
+        }
+      ],
+      "restored": [
+        {
+          "battleMapInfo": {
+            "mapName": "OrientalCorridor"
+          },
+          "unitList": [
+            {
+              "unitID": 90024,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90025,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90026,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90027,
+              "unitCount": 1,
+              "unitLevel": 13
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp2_Ally_2",
+            "Battle_Cp2_Enemy_2"
+          ],
+          "enemyPositionID": 18,
+          "subUnitList": []
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "OrientalCorridor"
+          },
+          "unitList": [
+            {
+              "unitID": 90024,
+              "unitCount": 2,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90025,
+              "unitCount": 1,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90026,
+              "unitCount": 1,
+              "unitLevel": 13
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp2_Ally_2",
+            "Battle_Cp2_Enemy_2"
+          ],
+          "enemyPositionID": 18,
+          "subUnitList": []
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "OrientalCorridor"
+          },
+          "unitList": [
+            {
+              "unitID": 90024,
+              "unitCount": 2,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 90025,
+              "unitCount": 2,
+              "unitLevel": 13
+            },
+            {
+              "unitID": 91004,
+              "unitCount": 1,
+              "unitLevel": 13
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp2_Ally_2",
+            "Battle_Cp2_Enemy_2"
+          ],
+          "enemyPositionID": 18,
+          "subUnitList": []
+        }
+      ],
+      "source": "aida-launch-video"
+    },
+    {
+      "kind": "stage",
+      "id": 10218,
+      "path": [
+        "stageScriptList"
+      ],
+      "expected": [
+        "Casino_Eyed",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
+      ],
+      "restored": [
+        "Casino_Eyed"
+      ],
+      "source": "aida-launch-video"
+    }
+  ]
+}

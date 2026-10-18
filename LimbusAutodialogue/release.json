@@ -1,0 +1,9 @@
+{
+  "name": "LimbusAutodialogue",
+  "kind": "plugin",
+  "project": "src/LimbusAutodialogue.csproj",
+  "packageFiles": [
+    "README.md",
+    "Install.ps1"
+  ]
+}

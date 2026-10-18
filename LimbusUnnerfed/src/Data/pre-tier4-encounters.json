@@ -1,0 +1,6934 @@
+[
+  {
+    "key": "10101:90004,90005,90006;90004,90005,90006",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10102:99022,99023,99026",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10103:90004,90006;90006,90004",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10104:90004,90005,90006;90004,90005,90006,90007",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10105:90004,90005,90006;90007,90010",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10106:90005,90006,90007;90007,90009,90010",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10107:99022,99023,99024,99026",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10108:90009,90010",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10109:90008,90009,90012,90013",
+    "source": "storybattle1-1.json"
+  },
+  {
+    "key": "10202:90004",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10204:90018,90019",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10205:90018",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10206:90018,90019,90017",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10207:90017,90018,90019",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10208:90020",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10209:90020,90021",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10210:90020,90024;90020,90021,90024",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10211:90024;90025",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10212:99027,99028;90024,90025",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10213:90020,90021,90027",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10214:90026,90027",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10215:90026,90027",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10218:90024,90025",
+    "source": "storybattle1-2.json"
+  },
+  {
+    "key": "10302:90004,90005,90007;90004,90005,90006,90007",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10304:90028,90029",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10305:90028,90029",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10306:90028,90029,90030,90031",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10310:90032",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10311:90032;90032,90033",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10312:90032,90033",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10313:90032,90033",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10314:90032,90033",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10315:90032,90033",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10316:90034,90035,90036",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10317:90034,90035,90036",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10318:90032,90033,90035,90036",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10319:90034",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10320:90034,90036,90035;90037,90038,90039",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10321:90036,90035,90037;90038,90039,90040",
+    "source": "storybattle1-3.json"
+  },
+  {
+    "key": "10402:90046,90071,90072",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10403:8042,8041",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10404:90071,90072",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10405:90071,90072",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10406:8041",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10410:90047,90048",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10411:90047,90048",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10412:90047,90048,90049",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10413:90047,90048,90050",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10414:90047,90048;90047,90048,91007",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10416:90047,90048",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10417:90047,90048,90049,90050",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10418:90047,90048,90049,90050",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10419:90047,90049,90050,91007",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10420:90047,90048;90049,90050,91007,91007",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10421:90052,90053,90053,91008",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10422:90052,90053",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10423:90051,90052,90053,90052,90053",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10424:90051,90052,90053,91007",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10425:90051,90052,90053",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10430:90073,90075,90056",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10431:90073,90055,90056",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10432:90054,90056",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10433:90058,90059,90058,90059,90059",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10434:90058,90059,90058,90059,90059",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10435:90058,90058,90059,90061,90061",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10436:90058,90058,90059,90060,90060",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10437:90060,90061",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10438:90076,90055,90056",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10439:90076,90055,90056",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10440:90076,90055,90057",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10441:90054,90055,90057",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10442:90054,90055",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10443:90060,90061",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10444:90054,90055,90057",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10445:90060,90061,90060,90061,90060",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10446:90073,90075,90055,90057",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10447:8043",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10448:8044",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10449:90064,90065,90066,90067",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10450:90064,90065,90066,90067",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10451:90062,90063,90062,90063",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10452:90062,90063,90062,90063",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10453:90068",
+    "source": "storybattle1-4.json"
+  },
+  {
+    "key": "10110:90001,90012,90013",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10111:90002,90003",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10112:90002,90003",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10113:90001,90002,90003,91001",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10114:90014,90015,90016",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10115:90015,90003",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10116:90014,90015,90016,91002",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10117:90014,90001",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10118:90014,90015,90016",
+    "source": "dungeonbattle1-1.json"
+  },
+  {
+    "key": "10202:90041,90020",
+    "source": "dungeonbattle1-2.json"
+  },
+  {
+    "key": "10203:90041,90021",
+    "source": "dungeonbattle1-2.json"
+  },
+  {
+    "key": "10204:90041,90022",
+    "source": "dungeonbattle1-2.json"
+  },
+  {
+    "key": "10205:90023",
+    "source": "dungeonbattle1-2.json"
+  },
+  {
+    "key": "10206:90041;90020,90021,90023",
+    "source": "dungeonbattle1-2.json"
+  },
+  {
+    "key": "10207:90041",
+    "source": "dungeonbattle1-2.json"
+  },
+  {
+    "key": "10303:90032,90033,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10304:90032,90033,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10310:90035,90033,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10311:90032,90033,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10313:90040,90037",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10314:90032,90033,90035,90036;90040,90037",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10315:90032,90033,90034;90036,90035,90032,90033;90040,90037",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10316:90038,90039",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10318:90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10319:90037,90038,90036",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10322:90032,90033,90037",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10324:90032,90033,90032,90033",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10326:90037,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10330:90037,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10331:90038,90039,90040",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10333:90032,90033,90032,90033",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10334:90037",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10335:90039,90032,90033",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10337:90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10340:90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10341:90037,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10343:90034,90037",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10345:90035,90036,90034",
+    "source": "dungeonbattle1-3.json"
+  },
+  {
+    "key": "10401:90067,90065",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10404:90066,90065",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10405:90066,90064",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10407:90062",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10409:90063",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10413:90066,90064",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10414:90063,90062",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10415:90067,90064",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10416:90063,90062",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10421:90068,90064,90066,90067",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10422:90068,90064,90066,90067",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10423:90062",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10426:90069",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10427:90070",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10429:90070,90062,90063",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "10431:90070,90069",
+    "source": "dungeonbattle1-4.json"
+  },
+  {
+    "key": "100101:1142;1143,8005",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100102:8006,8005",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100103:8007,8005",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100104:8005,8006,8007",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100105:8003",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100106:8003,8007",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100107:8001",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100108:8002,8003",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100109:8008",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100110:8007,8005",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100111:8006,8007",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "100112:8003",
+    "source": "abbattle1-1.json"
+  },
+  {
+    "key": "10201:8007",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10207:8006,8007",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10209:8006,8010",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10210:8007,8011",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10211:8010",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10212:8010,8011",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10213:8010,8011,8012",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10214:8010,8011",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10215:8010,8011,8013",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10216:8013,8014",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10217:8006,8016,8014",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10218:8016,8007,8013,8014",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10219:8010,8011,8013,8014",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10220:8013,8014",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10221:8013,8014,8015",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10222:8016",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10223:8006,8016",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10224:8016,8021,8022",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10225:8006,8021,8022",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10226:8021,8022",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10227:8021,8022",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10228:8019,8020;8019,8020;8019,8020,8021;8021,8022",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10229:8010,8011",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10230:8013,8014",
+    "source": "abbattle1-2.json"
+  },
+  {
+    "key": "10301:8007,8018",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10302:8007,8017,8018",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10305:8007,8017",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10306:8017,8018",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10307:8024,8026",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10308:8017,8018",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10309:8027,8007",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10312:8025",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10317:8007,8017",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10320:8017,8018",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10321:8027",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10323:8007,8017,8018",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10325:8026,8017",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10327:8033,8024",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10328:8027,8018,8017",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10329:8026,8024",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10332:8007,8017,8018",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10336:8028",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10338:8026,8024",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10339:8025,8027",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10342:8017,8007",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10344:8025,8027",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10346:8026,8017",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10347:8033",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10348:8029",
+    "source": "abbattle1-3.json"
+  },
+  {
+    "key": "10402:8005",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10403:8005",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10406:8005",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10408:8048",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10410:8005",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10411:8047",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10412:8005,8016",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10417:8005,8006",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10418:8046,8052",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10419:8005,8006,8016",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10420:8005,8006,8016",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10424:8045",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10425:8006,8016",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10428:8006,8016",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10430:8006,8016",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10432:8049",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10433:8050,8060",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "10491:8041",
+    "source": "abbattle1-4.json"
+  },
+  {
+    "key": "910301:90042",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910302:90042,90043,90044",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910303:8034",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910304:8034,8035",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910305:8034,8035,8036;8039,8034,8036",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910306:8035,8036,8037",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910307:8036,8037",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910308:8034,8035,8036,8037",
+    "source": "storybattle91-3.json"
+  },
+  {
+    "key": "910301:90042,90043",
+    "source": "dungeonbattle91-3.json"
+  },
+  {
+    "key": "910302:90042,90044",
+    "source": "dungeonbattle91-3.json"
+  },
+  {
+    "key": "910303:90043,90044",
+    "source": "dungeonbattle91-3.json"
+  },
+  {
+    "key": "910304:90042,90043,90044,90045",
+    "source": "dungeonbattle91-3.json"
+  },
+  {
+    "key": "910305:8036,8035",
+    "source": "abbattle91-3.json"
+  },
+  {
+    "key": "910306:8036,8034",
+    "source": "abbattle91-3.json"
+  },
+  {
+    "key": "910307:8035,8034",
+    "source": "abbattle91-3.json"
+  },
+  {
+    "key": "910308:8034,8035,8036,8037",
+    "source": "abbattle91-3.json"
+  },
+  {
+    "key": "910309:8039,8035,8036,8037",
+    "source": "abbattle91-3.json"
+  },
+  {
+    "key": "910310:8040,8035,8036,8037",
+    "source": "abbattle91-3.json"
+  },
+  {
+    "key": "1:97101,97102,97103;97104,97105,97106,97151",
+    "source": "battle-exp-dungeon-01.json"
+  },
+  {
+    "key": "2:97201,97202,97203,97204,97205;97202,97203,97204,97205,97251",
+    "source": "battle-exp-dungeon-01.json"
+  },
+  {
+    "key": "3:97301,97302,97303,97304,97305;97303,97304,97306,97307,97308",
+    "source": "battle-exp-dungeon-01.json"
+  },
+  {
+    "key": "1:8701",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "2:8702",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "3:8703",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "4:8705",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "5:8706,8707,8708",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "6:8709,8710,8711",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "7:8712,8713",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "8:8721",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "9:8722",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "10:8723",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "11:8725",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "12:8726,8727,8728",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "13:8729,8730,8731",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "14:8732,8733",
+    "source": "battle-thread-dungeon-01.json"
+  },
+  {
+    "key": "1:8501,8502,8503;8501,8502,8503,8504",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "2:8505,8506,8507;8505,8506,8507,8508,8509",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "3:8510",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "4:8511,8512,8513,8514,8515;8513,8514,8515,8516,8517",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "5:8518",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "6:8519",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "7:8537",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "8:8522,8535",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "9:8531,8532;8531,8532,8534;8523",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "10:8525,8536",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "11:8524,8538",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "12:8533",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "13:8527,8528,8529,8530",
+    "source": "battle-railway-dungeon-01.json"
+  },
+  {
+    "key": "2011001:90008,90009",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011002:8270,8271,8272",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011003:90008,90009",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011004:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011005:90008,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011006:90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011007:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011008:90008,90009",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011009:90011,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011010:90011,90012",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011011:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011012:90011,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011013:90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011014:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011015:90017",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011016:90017,90018",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011017:90017,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011018:90018",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011019:90018,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011020:90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011021:90020",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011022:90020,90021",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011023:90020,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011024:90021",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011025:90021,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011026:90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011027:90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011028:90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011029:90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011030:90041",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011101:90008,90009",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011102:90008,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011103:90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011104:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011105:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011106:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011107:90011,90012",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011108:90011,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011109:90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011110:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011111:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011112:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011113:90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011114:90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011115:90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011116:90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011117:90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011118:90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011119:90001,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011120:90017,90018",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011121:90017,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011122:90017,90018",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011123:90017,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011124:90018,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011125:90018,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011126:90017,90018,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011127:90020,90021",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011128:90020,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011129:90020,90021",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011130:90020,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011131:90021,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011132:90021,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011133:90020,90021,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011134:90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011135:90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011136:90020,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011137:90020,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011138:90021,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011139:90021,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011140:90022,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011141:90022,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011142:90020,90021,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011143:90020,90021,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011144:90020,90022,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011145:90020,90022,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011146:90021,90022,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011147:90021,90022,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011148:90020,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011149:90020,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011150:90020,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011151:90021,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011152:90021,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011153:90021,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011154:90022,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011155:90022,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011156:90022,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011157:90041",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011201:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011202:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011203:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011204:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011205:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011206:90008,90009,90010",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011207:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011208:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011209:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011210:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011211:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011212:90011,90012,90013",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011213:90001,90002,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011214:90001,90003,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011215:90001,90002,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011216:90001,90003,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011217:90002,90003,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011218:90002,90003,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011219:90001,90002,90003,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011220:90001,90002,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011221:90001,90003,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011222:90001,90002,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011223:90001,90003,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011224:90002,90003,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011225:90002,90003,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011226:90001,90002,90003,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011227:90001,90002,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011228:90001,90003,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011229:90001,90002,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011230:90001,90003,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011231:90002,90003,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011232:90002,90003,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011233:90001,90002,90003,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011234:90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011235:90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011236:90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011237:90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011238:90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011239:90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011240:90014,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011241:90017,90018",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011242:90017,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011243:90018,90019",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011244:90020,90021",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011245:90020,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011246:90021,90022",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011247:90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011248:90017,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011249:90018,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011250:90019,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011251:90017,90018,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011252:90017,90019,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011253:90018,90019,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011254:90017,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011255:90018,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011256:90019,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011257:90017,90018,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011258:90017,90019,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011259:90018,90019,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011260:90020,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011261:90021,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011262:90022,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011263:90020,90021,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011264:90020,90022,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011265:90021,90022,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011266:90020,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011267:90021,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011268:90022,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011269:90020,90021,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011270:90020,90022,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011271:90021,90022,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011272:90024,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011273:90024,90025,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011274:90025,90026",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011275:90024,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011276:90024,90025,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011277:90025,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011301:90011,90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011302:90011,90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011303:90011,90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011304:90011,90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011305:90011,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011306:90011,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011307:90011,90001,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011308:90012,90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011309:90012,90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011310:90012,90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011311:90012,90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011312:90012,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011313:90012,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011314:90012,90001,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011315:90013,90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011316:90013,90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011317:90013,90001,90002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011318:90013,90001,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011319:90013,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011320:90013,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011321:90013,90001,90002,90003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011322:90001,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011323:90001,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011324:90001,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011325:90002,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011326:90002,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011327:90002,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011328:90003,90014",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011329:90003,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011330:90003,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011331:90020,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011332:90020,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011333:90020,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011334:90020,90021,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011335:90020,90021,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011336:90020,90021,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011337:90020,90022,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011338:90020,90022,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011339:90020,90022,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011340:90021,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011341:90021,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011342:90021,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011343:90021,90022,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011344:90021,90022,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011345:90021,90022,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011346:90022,90024",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011347:90022,90024,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011348:90022,90025",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011349:90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011350:90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011351:90041",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011352:90028,90030",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011353:90028,90031",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011354:90028,90029,90030",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011355:90028,90029,90031",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011356:90029,90030",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011357:90029,90031",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011358:90028,90030",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011359:90028,90030,90031",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011360:90028,90031",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011361:90029,90030",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011362:90029,90030,90031",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011363:90029,90031",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011401:90001,90002,90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011402:90001,90002,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011403:90001,90002,90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011404:90001,90002,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011405:90001,90002,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011406:90001,90002,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011407:90001,90002,90014,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011408:90001,90003,90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011409:90001,90003,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011410:90001,90003,90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011411:90001,90003,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011412:90001,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011413:90001,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011414:90001,90003,90014,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011415:90002,90003,90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011416:90002,90003,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011417:90002,90003,90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011418:90002,90003,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011419:90002,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011420:90002,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011421:90002,90003,90014,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011422:90017,90018,90024,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011423:90017,90019,90024,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011424:90018,90019,90024,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011425:90017,90018,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011426:90017,90019,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011427:90018,90019,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011428:90020,90021,90024,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011429:90020,90022,90024,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011430:90021,90022,90024,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011431:90020,90021,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011432:90020,90022,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011433:90021,90022,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011434:90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011435:90028,90029,90032,90033",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011436:90028,90029,90032,90034",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011437:90028,90029,90033,90034",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011438:90028,90030,90032,90033",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011439:90028,90030,90032,90034",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011440:90028,90030,90033,90034",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011441:90029,90030,90032,90033",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011442:90029,90030,90032,90034",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011443:90029,90030,90033,90034",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011444:90028,90029,90035,90036",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011445:90028,90029,90035,90037",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011446:90028,90029,90036,90037",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011447:90028,90030,90035,90036",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011448:90028,90030,90035,90037",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011449:90028,90030,90036,90037",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011450:90029,90030,90035,90036",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011451:90029,90030,90035,90037",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011452:90029,90030,90036,90037",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011453:90035,90037,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011454:90036,90037,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011455:90037,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011456:90035,90037,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011457:90036,90037,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011458:90037,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011459:90035,90038,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011460:90036,90038,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011461:90037,90038,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011501:90001,90002,90014,90015",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011502:90001,90002,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011503:90001,90002,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011504:90001,90003,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011505:90001,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011506:90001,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011507:90002,90003,90014,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011508:90002,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011509:90002,90003,90015,90016",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011510:90020,90021,90024,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011511:90020,90022,90024,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011512:90021,90022,90024,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011513:90017,90018,90019,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011514:90017,90018,90019,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011515:90020,90021,90022,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011516:90020,90021,90022,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011517:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011518:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011519:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011520:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011521:90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011522:90026,90027",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011523:90028,90029,90032,90033,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011524:90028,90029,90032,90033,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011525:90028,90029,90032,90033,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011526:90028,90029,90032,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011527:90028,90029,90032,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011528:90028,90029,90032,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011529:90028,90029,90033,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011530:90028,90029,90033,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011531:90028,90029,90033,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011532:90028,90030,90032,90033,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011533:90028,90030,90032,90033,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011534:90028,90030,90032,90033,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011535:90028,90030,90032,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011536:90028,90030,90032,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011537:90028,90030,90032,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011538:90028,90030,90033,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011539:90028,90030,90033,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011540:90028,90030,90033,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011541:90029,90030,90032,90033,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011542:90029,90030,90032,90033,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011543:90029,90030,90032,90033,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011544:90029,90030,90032,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011545:90029,90030,90032,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011546:90029,90030,90032,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011547:90029,90030,90033,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011548:90029,90030,90033,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011549:90029,90030,90033,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011550:90035,90036,90038,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011551:90035,90036,90038,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011552:90035,90036,90039,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011553:90035,90037,90038,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011554:90035,90037,90038,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011555:90035,90037,90039,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011556:90036,90037,90038,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011557:90036,90037,90038,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2011558:90036,90037,90039,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013001:90008,90011,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013002:90008,90012,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013003:90008,90013,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013004:90009,90011,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013005:90009,90012,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013006:90009,90013,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013007:90010,90011,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013008:90010,90012,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013009:90010,90013,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013010:90014,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013011:90014,90015,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013012:90014,90016,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013013:90015,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013014:90015,90016,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013015:90016,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013016:90001,90002,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013017:90001,90003,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013018:90001,90002,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013019:90001,90003,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013020:90002,90003,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013021:90002,90003,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013022:90001,90002,90003,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013023:90017,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013024:90017,90018,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013025:90017,90019,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013026:90018,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013027:90018,90019,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013028:90019,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013029:90020,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013030:90020,90021,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013031:90020,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013032:90021,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013033:90021,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013034:90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013101:90011,90012,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013102:90011,90013,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013103:90012,90013,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013104:90011,90014,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013105:90011,90015,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013106:90011,90016,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013107:90012,90014,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013108:90012,90015,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013109:90012,90016,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013110:90013,90014,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013111:90013,90015,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013112:90013,90016,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013113:90020,90021,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013114:90020,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013115:90020,90021,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013116:90020,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013117:90021,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013118:90021,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013119:90020,90021,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013120:90032,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013121:90032,90033,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013122:90032,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013123:90033,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013124:90033,90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013125:90034,90038",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013126:90032,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013127:90032,90033,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013128:90032,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013129:90033,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013130:90033,90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013131:90034,90039",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013132:90032,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013133:90032,90033,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013134:90032,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013135:90033,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013136:90033,90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013137:90034,90040",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013201:90014,90015,91001,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013202:90014,90016,91001,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013203:90015,90016,91001,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013204:90017,90020,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013205:90017,90021,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013206:90017,90022,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013207:90018,90020,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013208:90018,90021,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013209:90018,90022,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013210:90019,90020,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013211:90019,90021,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013212:90019,90022,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013213:90024,90025,91004",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013214:90024,90025,91004",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013215:90032,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013216:90033,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013217:90034,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013301:90014,90015,90016,91001,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013302:90017,90020,90026,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013303:90018,90021,90026,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013304:90019,90022,90026,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013305:90017,90021,90027,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013306:90018,90022,90027,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013307:90019,90020,90027,91003,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013308:90024,90025,91004",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013309:90032,90033,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013310:90032,90034,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013311:90033,90034,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013312:90038,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013313:90039,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2013314:90040,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014001:90001,90002,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014002:90001,90003,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014003:90002,91001",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014004:90001,90002,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014005:90001,90003,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014006:90002,91002",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014007:90017,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014008:90018,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014009:90019,91003",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014010:90020,90021,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014011:90020,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014012:90021,90022,90023",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014101:90024,91004",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014102:90037,90039,91005",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2014201:90037,90038,91006",
+    "source": "mirrordungeon-battle1-1.json"
+  },
+  {
+    "key": "2021001:90011,90012,90001,90002,90003",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021002:90011,90013,90001,90002,90003",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021003:90012,90013,90001,90002,90003",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021004:90017,90018,90020,90022",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021005:90017,90019,90021,90022",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021006:90018,90019,90020,90021",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021007:90028,90029",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021008:90032,90033,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021009:90032,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021010:90033,90034,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021011:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021012:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021013:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021014:90017,90018,90019,90020,90021",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021015:90017,90018,90019,90020,90022",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021016:90017,90018,90019,90021,90022",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021017:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021018:90028,90029,90030,90031",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021019:90032,90033,90034,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021020:90032,90033,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021021:90032,90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021022:90035,90036,90038,90040",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021023:90035,90037,90039,90040",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021024:90036,90037,90038,90039",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021101:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021102:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021103:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021104:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021105:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021106:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021107:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021108:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021109:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021110:90046,90047,90048,90049",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021111:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021112:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021113:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021114:90058,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021115:90059,90060",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021116:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021117:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021118:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021119:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021120:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021121:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021122:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021123:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021124:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021125:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021126:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021127:90046,90047,90048,90049",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021128:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021129:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021130:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021131:90058,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021132:90059,90060",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021133:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021134:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021201:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021202:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021203:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021204:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021205:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021206:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021207:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021208:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021209:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021210:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021211:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021212:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021213:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021214:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021215:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021216:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021217:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021218:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021219:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021220:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021221:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021222:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021223:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021224:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021225:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021226:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021227:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021228:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021229:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021230:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021301:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021302:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021303:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021304:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021305:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021306:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021307:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021308:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021309:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021310:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021311:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021312:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021313:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021314:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021315:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021316:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021317:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021318:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021319:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021320:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021321:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021322:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021323:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021324:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021325:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021326:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021327:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021328:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021329:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021330:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021401:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021402:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021403:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021404:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021405:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021406:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021407:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021408:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021409:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021410:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021411:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021412:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021413:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021414:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021415:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021416:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021417:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021418:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021419:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021420:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021421:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021422:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021423:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021424:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021425:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021426:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021427:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021428:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021429:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2021430:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023001:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023002:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023003:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023004:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023005:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023006:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023007:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023008:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023009:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023010:90047,90048,90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023011:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023012:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023013:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023014:90058,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023015:90059,90060",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023016:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023017:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023018:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023019:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023020:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023021:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023022:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023023:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023024:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023025:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023026:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023027:90046,90047,90048,90049",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023028:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023029:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023030:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023031:90058,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023032:90059,90060",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023033:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023034:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023101:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023102:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023103:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023104:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023105:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023106:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023107:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023108:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023109:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023110:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023111:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023112:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023113:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023114:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023115:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023116:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023117:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023118:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023119:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023120:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023121:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023122:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023123:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023124:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023125:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023126:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023127:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023128:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023129:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023130:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023201:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023202:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023203:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023204:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023205:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023206:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023207:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023208:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023209:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023210:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023211:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023212:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023213:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023214:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023215:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023216:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023217:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023218:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023219:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023220:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023221:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023222:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023223:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023224:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023225:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023226:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023227:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023228:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023229:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023230:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023301:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023302:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023303:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023304:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023305:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023306:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023307:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023308:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023309:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023310:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023311:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023312:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023313:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023314:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023315:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023316:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023317:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023318:90014,90015,90016",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023319:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023320:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023321:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023322:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023323:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023324:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023325:90049,90050",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023326:90051,90052,90053",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023327:90054,90055,90057",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023328:90060,90061",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023329:90062,90063",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2023330:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024001:90001,90002,90003,91001",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024002:90014,90015,90016,91002",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024003:90017,90018,90019,91003",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024004:90020,90021,90022,90023",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024005:90024,90025,90026,90027,91004",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024201:90032,90035,90036,90037,91005",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024202:90032,90033,90034,90037,91006",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024203:90051,90052,91008",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024204:90058,90060,91009",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2024205:90062,91010",
+    "source": "mirrordungeon-battle2-0.json"
+  },
+  {
+    "key": "2031001:90011,90012,90001,90002,90003",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031002:90011,90013,90001,90002,90003",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031003:90012,90013,90001,90002,90003",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031004:90017,90018,90020,90022",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031005:90017,90019,90021,90022",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031006:90018,90019,90020,90021",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031007:90028,90029",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031008:90032,90033,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031009:90032,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031010:90033,90034,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031011:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031012:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031013:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031014:90017,90018,90019,90020,90021",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031015:90017,90018,90019,90020,90022",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031016:90017,90018,90019,90021,90022",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031017:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031018:90028,90029,90030,90031",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031019:90032,90033,90034,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031020:90032,90033,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031021:90032,90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031022:90035,90036,90038,90040",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031023:90035,90037,90039,90040",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031024:90036,90037,90038,90039",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031101:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031102:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031103:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031104:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031105:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031106:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031107:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031108:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031109:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031110:90046,90047,90048,90049",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031111:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031112:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031113:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031114:90058,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031115:90059,90060",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031116:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031117:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031118:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031119:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031120:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031121:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031122:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031123:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031124:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031125:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031126:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031127:90046,90047,90048,90049",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031128:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031129:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031130:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031131:90058,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031132:90059,90060",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031133:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031134:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031201:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031202:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031203:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031204:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031205:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031206:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031207:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031208:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031209:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031210:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031211:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031212:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031213:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031214:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031215:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031216:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031217:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031218:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031219:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031220:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031221:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031222:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031223:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031224:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031225:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031226:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031227:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031228:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031229:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031230:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031301:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031302:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031303:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031304:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031305:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031306:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031307:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031308:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031309:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031310:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031311:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031312:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031313:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031314:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031315:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031316:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031317:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031318:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031319:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031320:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031321:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031322:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031323:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031324:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031325:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031326:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031327:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031328:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031329:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031330:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031401:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031402:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031403:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031404:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031405:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031406:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031407:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031408:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031409:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031410:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031411:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031412:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031413:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031414:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031415:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031416:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031417:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031418:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031419:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031420:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031421:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031422:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031423:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031424:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031425:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031426:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031427:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031428:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031429:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2031430:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033001:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033002:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033003:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033004:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033005:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033006:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033007:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033008:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033009:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033010:90047,90048,90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033011:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033012:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033013:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033014:90058,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033015:90059,90060",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033016:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033017:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033018:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033019:90017,90018,90020,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033020:90017,90019,90021,90022,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033021:90018,90019,90020,90021,90024,90025",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033022:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033023:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033024:90032,90033,90035,90037,90038",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033025:90032,90034,90036,90037,90039",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033026:90033,90034,90035,90036,90040",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033027:90046,90047,90048,90049",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033028:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033029:90073,90074,90075,90076,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033030:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033031:90058,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033032:90059,90060",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033033:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033034:90064,90065,90066,90067,90068",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033101:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033102:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033103:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033104:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033105:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033106:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033107:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033108:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033109:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033110:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033111:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033112:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033113:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033114:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033115:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033116:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033117:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033118:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033119:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033120:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033121:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033122:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033123:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033124:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033125:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033126:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033127:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033128:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033129:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033130:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033201:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033202:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033203:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033204:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033205:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033206:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033207:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033208:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033209:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033210:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033211:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033212:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033213:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033214:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033215:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033216:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033217:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033218:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033219:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033220:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033221:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033222:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033223:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033224:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033225:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033226:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033227:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033228:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033229:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033230:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033301:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033302:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033303:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033304:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033305:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033306:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033307:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033308:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033309:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033310:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033311:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033312:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033313:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033314:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033315:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033316:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033317:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033318:90014,90015,90016",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033319:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033320:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033321:90024,90025,90026,90027",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033322:90032,90033,90035,90036",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033323:90032,90034,90035,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033324:90033,90034,90036,90037",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033325:90049,90050",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033326:90051,90052,90053",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033327:90054,90055,90057",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033328:90060,90061",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033329:90062,90063",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2033330:90066,90067,90068,90069",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034002:90014,90015,90016,91002",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034003:90017,90018,90019,91003",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034004:90020,90021,90022,90023",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034005:90024,90025,90026,90027,91004",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034101:90032,90033,90034,90037,91006",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034102:90051,90052,91008",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034103:90058,90060,91009",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034104:90062,91010",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2034105:90082",
+    "source": "mirrordungeon-battle2-1.json"
+  },
+  {
+    "key": "2010201:8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2010202:8065",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2010301:8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2010302:8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2010303:8064,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2010304:8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012001:8064,8065",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012002:8064,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012003:8064,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012004:8064,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012005:8064,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012006:8065,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012007:8065,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012008:8065,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012009:8065,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012010:8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012011:8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012012:8066,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012013:8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012014:8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012015:8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012101:8064,8065,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012102:8064,8065,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012103:8064,8065,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012104:8064,8065,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012105:8064,8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012106:8064,8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012107:8064,8066,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012108:8064,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012109:8064,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012110:8064,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012201:8010,8011,8064",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012202:8010,8011,8065",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012203:8010,8011,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012204:8010,8011,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012205:8010,8011,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012206:8010,8011,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012207:8013,8014,8064",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012208:8013,8014,8065",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012209:8013,8014,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012210:8013,8014,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012211:8013,8014,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012212:8013,8014,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012213:8024,8064,8065",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012214:8024,8064,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012215:8024,8064,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012216:8024,8064,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012217:8024,8064,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012218:8024,8065,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012219:8024,8065,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012220:8024,8065,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012221:8024,8065,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012222:8024,8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012223:8024,8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012224:8024,8066,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012225:8024,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012226:8024,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012227:8024,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012228:8027,8064,8065",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012229:8027,8064,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012230:8027,8064,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012231:8027,8064,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012232:8027,8064,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012233:8027,8065,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012234:8027,8065,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012235:8027,8065,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012236:8027,8065,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012237:8027,8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012238:8027,8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012239:8027,8066,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012240:8027,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012241:8027,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012242:8027,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012243:8033,8064,8065",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012244:8033,8064,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012245:8033,8064,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012246:8033,8064,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012247:8033,8064,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012248:8033,8065,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012249:8033,8065,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012250:8033,8065,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012251:8033,8065,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012252:8033,8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012253:8033,8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012254:8033,8066,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012255:8033,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012256:8033,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012257:8033,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012301:8024,8064,8065,8066,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012302:8024,8064,8065,8066,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012303:8024,8064,8065,8066,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012304:8024,8064,8065,8067,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012305:8024,8064,8066,8067,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012306:8024,8065,8066,8067,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012307:8027,8064,8065,8066,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012308:8027,8064,8065,8066,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012309:8027,8064,8065,8066,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012310:8027,8064,8065,8067,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012311:8027,8064,8066,8067,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012312:8027,8065,8066,8067,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012313:8033,8064,8065,8066",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012314:8033,8064,8065,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012315:8033,8064,8065,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012316:8033,8064,8065,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012317:8033,8064,8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012318:8033,8064,8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012319:8033,8064,8066,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012320:8033,8064,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012321:8033,8064,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012322:8033,8064,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012323:8033,8065,8066,8067",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012324:8033,8065,8066,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012325:8033,8065,8066,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012326:8033,8065,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012327:8033,8065,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012328:8033,8065,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012329:8033,8066,8067,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012330:8033,8066,8067,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012331:8033,8066,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2012332:8033,8067,8068,8069",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014151:8010,8011,8012",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014152:8013,8015",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014153:8014,8015",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014154:8013,8014,8015",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014155:8024,8069,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014156:8027,8069,8068",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014157:8033",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014251:8001",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014252:8002,8003",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014253:8008",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014254:8010,8011,8012",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014255:8013,8014,8015",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014257:8026,8024",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014258:8025,8027",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014259:8028",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014260:8031",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2014261:8032",
+    "source": "mirrordungeon-abbattle1-1.json"
+  },
+  {
+    "key": "2020201:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020202:8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020203:8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020204:8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020205:8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020206:8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020207:8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020208:8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020301:8066",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020302:8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020303:8064,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2020304:8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022001:8064,8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022002:8064,8065",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022003:8064,8066",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022004:8064,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022005:8064,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022006:8064,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022007:8065,8066",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022008:8065,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022009:8065,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022010:8065,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022011:8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022012:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022013:8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022014:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022015:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022016:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022017:8064,8065,8066",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022018:8064,8065,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022019:8064,8065,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022020:8064,8065,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022021:8064,8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022022:8064,8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022023:8064,8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022024:8064,8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022025:8064,8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022026:8064,8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022027:8065,8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022028:8065,8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022029:8065,8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022030:8065,8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022031:8065,8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022032:8065,8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022033:8066,8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022034:8066,8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022035:8066,8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022036:8067,8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022101:8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022102:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022103:8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022104:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022105:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022106:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022107:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022108:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022109:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022110:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022111:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022112:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022113:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022114:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022115:8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022116:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022117:8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022118:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022119:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022120:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022121:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022122:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022123:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022124:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022125:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022126:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022127:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022128:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022201:8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022202:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022203:8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022204:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022205:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022206:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022207:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022208:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022209:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022210:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022211:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022212:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022213:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022214:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022215:8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022216:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022217:8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022218:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022219:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022220:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022221:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022222:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022223:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022224:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022225:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022226:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022227:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022228:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022301:8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022302:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022303:8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022304:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022305:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022306:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022307:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022308:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022309:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022310:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022311:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022312:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022313:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022314:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022315:8066,8067",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022316:8066,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022317:8066,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022318:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022319:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022320:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022321:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022322:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022323:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022324:8067,8068",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022325:8067,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022326:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022327:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2022328:8068,8069",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024101:8001",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024102:8002,8003",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024103:8008",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024104:8010,8011,8012",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024105:8013,8014,8015",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024301:8026,8024",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024302:8025,8027",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024303:8028,8033",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024304:8031",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024305:8032",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024401:8041",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024402:8045",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024403:8046,8052",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024404:8047",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024405:8048",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2024406:8059",
+    "source": "mirrordungeon-abbattle2-0.json"
+  },
+  {
+    "key": "2030201:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030202:8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030203:8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030204:8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030205:8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030206:8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030207:8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030208:8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030301:8066",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030302:8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030303:8064,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2030304:8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032001:8064,8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032002:8064,8065",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032003:8064,8066",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032004:8064,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032005:8064,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032006:8064,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032007:8065,8066",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032008:8065,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032009:8065,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032010:8065,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032011:8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032012:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032013:8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032014:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032015:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032016:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032017:8064,8065,8066",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032018:8064,8065,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032019:8064,8065,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032020:8064,8065,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032021:8064,8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032022:8064,8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032023:8064,8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032024:8064,8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032025:8064,8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032026:8064,8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032027:8065,8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032028:8065,8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032029:8065,8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032030:8065,8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032031:8065,8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032032:8065,8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032033:8066,8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032034:8066,8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032035:8066,8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032036:8067,8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032101:8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032102:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032103:8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032104:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032105:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032106:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032107:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032108:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032109:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032110:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032111:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032112:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032113:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032114:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032115:8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032116:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032117:8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032118:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032119:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032120:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032121:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032122:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032123:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032124:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032125:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032126:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032127:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032128:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032201:8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032202:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032203:8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032204:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032205:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032206:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032207:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032208:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032209:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032210:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032211:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032212:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032213:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032214:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032215:8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032216:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032217:8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032218:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032219:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032220:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032221:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032222:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032223:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032224:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032225:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032226:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032227:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032228:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032301:8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032302:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032303:8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032304:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032305:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032306:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032307:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032308:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032309:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032310:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032311:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032312:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032313:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032314:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032315:8066,8067",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032316:8066,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032317:8066,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032318:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032319:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032320:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032321:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032322:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032323:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032324:8067,8068",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032325:8067,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032326:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032327:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2032328:8068,8069",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034051:8010,8011",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034052:8013,8014",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034053:8024",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034054:8027",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034055:8033",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034151:8001",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034152:8002,8003",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034153:8094",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034154:8010,8011,8012",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034155:8013,8014,8015",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034156:8026,8025",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034157:8026,8024",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034158:8025,8027",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034159:8028,8033",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034160:8075",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034201:8089",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034202:8090",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034203:8092",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034204:8084",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034205:8085",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034206:8086",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034207:8087,8088",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034208:8076",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034209:8096",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034301:8082",
+    "source": "mirrordungeon-abbattle2-1.json"
+  },
+  {
+    "key": "2034302:8078,8079,8080,8081",
+    "source": "mirrordungeon-abbattle2-1.json"
+  }
+]

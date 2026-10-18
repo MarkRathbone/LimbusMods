@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+ <ItemGroup><Compile Include="../src/HistoricalTiers.cs" Link="HistoricalTiers.cs" /><EmbeddedResource Include="../src/Data/pre-tier4-encounters.json" LogicalName="LimbusCompanyUnnerfed.pre-tier4-encounters.json" /><Compile Include="../src/CombatCaps.cs" Link="CombatCaps.cs" /><Compile Include="../src/DescriptionRules.cs" Link="DescriptionRules.cs" /><Compile Include="../src/ReplayCatalog.cs" Link="ReplayCatalog.cs" /><Compile Include="../src/RestorationManifest.cs" Link="RestorationManifest.cs" /><EmbeddedResource Include="../src/Data/restorations.json" LogicalName="LimbusCompanyUnnerfed.restorations.json" /></ItemGroup>
+</Project>
+
