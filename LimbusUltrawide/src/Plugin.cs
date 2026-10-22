@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace UltrawideLimbus;
 
-[BepInPlugin("local.limbus.verticalui", "Limbus Ultrawide", "0.9.57")]
+[BepInPlugin("local.limbus.verticalui", "Limbus Ultrawide", "0.9.58")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance = null!;
@@ -54,6 +54,7 @@ public sealed class Plugin : BasePlugin
     [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate void InstanceAction(IntPtr obj, IntPtr method);
     [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate void StaticAction(IntPtr method);
 
+    internal ConfigEntry<bool> ExtractionViewport = null!;
     public override void Load()
     {
         Instance = this;
@@ -85,6 +86,7 @@ public sealed class Plugin : BasePlugin
         CameraOffset = Float("Inspection", "CameraViewportOffset", 0, -.2f, .2f);
         ResultsWidth = Float("Results", "ContentWidth", 0, 0, 16000);
         ResultsOffset = Float("Results", "HorizontalOffset", 0, -3000, 3000);
+        ExtractionViewport = Config.Bind("Extraction", "ViewportAnimations", true, "Keep extraction reveals and their native artwork framing aligned with the full viewport.");
         MenuSafeArea = Config.Bind("Menu", "CenteredContent", true, "Keep menu content in a centered reference aspect ratio; backgrounds can fill the screen.");
         MenuSlidePanels = Config.Bind("Menu", "ResponsiveSlidePanels", true, "Scale off-screen travel of full-frame sliding menu panels to the viewport, preserving native animation positions and visible content size.");
         MenuBackgrounds = Config.Bind("Menu", "FillBackgrounds", true, "Extend background artwork beyond the content area.");

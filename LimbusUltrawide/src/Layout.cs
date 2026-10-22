@@ -26,6 +26,7 @@ internal sealed class Layout
     readonly Dictionary<int, byte> outcomePreserveAspect = new();
     readonly Dictionary<int, ScreenGraphic> transitionBackings = new();
     readonly HashSet<int> tracedTransitions = new();
+    readonly Dictionary<int, int> extractionRoots = new();
     readonly Dictionary<int, InspectionBuffs> inspectionBuffs = new();
 
     public void Apply(CanvasState canvas, Plugin plugin)
@@ -41,6 +42,7 @@ internal sealed class Layout
         if (canvas.Menu && !rpg && !canvas.EgoStage && !(canvas.Story && plugin.StoryLayout.Value)) Menu(canvas, plugin, enabled);
         if (canvas.Menu) LoadingArtPopup(canvas, plugin, enabled);
         if (canvas.Menu) FormationSelectorBacking(canvas, enabled && plugin.MenuSafeArea.Value);
+        if (canvas.Menu) Extraction(canvas, plugin, enabled);
         if (canvas.Menu) CultivationBackground(canvas, plugin, enabled);
         Events(canvas, plugin, enabled && (!canvas.Battle || plugin.Battle.Value));
         FloorLabel(canvas, enabled);
@@ -64,6 +66,31 @@ internal sealed class Layout
         int id = U.Id(obj);
         if (!changed.TryGetValue(id, out var saved)) { saved = new SavedRect(obj); changed[id] = saved; }
         return saved;
+    }
+    void Extraction(CanvasState canvas, Plugin plugin, bool enabled)
+    {
+        SavedRect? saved = null;
+        if (extractionRoots.TryGetValue(canvas.Id, out int id))
+        {
+            if (!changed.TryGetValue(id, out saved) || !U.Alive(saved.Object))
+            {
+                extractionRoots.Remove(canvas.Id);
+                saved = null;
+            }
+        }
+        if (saved == null && plugin.Discover)
+        {
+            var root = U.Find(canvas.Root, "GachaResultUI(Clone)", 4);
+            if (root != IntPtr.Zero)
+            {
+                saved = Save(root);
+                extractionRoots[canvas.Id] = U.Id(root);
+            }
+        }
+        if (saved == null || !U.Active(saved.Object)) return;
+        // The reveal applies its own artwork framing inside this root.
+        if (enabled && plugin.ExtractionViewport.Value) saved.HorizontalViewport(canvas.Root);
+        else saved.Restore();
     }
     void FormationSelectorBacking(CanvasState canvas, bool enabled)
     {
