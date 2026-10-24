@@ -13,6 +13,7 @@ internal sealed class Layout
     readonly Dictionary<int, Dictionary<int, SavedRect>> backdropsByCanvas = new();
     readonly HashSet<int> panelShades = new();
     readonly ArtworkCurtains artworkCurtains = new();
+    readonly WalpurgisLayout walpurgis = new();
     readonly HashSet<int> tracedGraphics = new();
     readonly Dictionary<int, Dictionary<int, ScreenGraphic>> containerBackings = new();
     readonly Dictionary<int, HashSet<int>> edgePanelsByCanvas = new();
@@ -43,6 +44,7 @@ internal sealed class Layout
         if (canvas.Menu) LoadingArtPopup(canvas, plugin, enabled);
         if (canvas.Menu) FormationSelectorBacking(canvas, enabled && plugin.MenuSafeArea.Value);
         if (canvas.Menu) Extraction(canvas, plugin, enabled);
+        if (canvas.Menu) walpurgis.Apply(canvas, plugin, enabled && plugin.WalpurgisFraming.Value);
         if (canvas.Menu) CultivationBackground(canvas, plugin, enabled);
         Events(canvas, plugin, enabled && (!canvas.Battle || plugin.Battle.Value));
         FloorLabel(canvas, enabled);
@@ -61,6 +63,8 @@ internal sealed class Layout
         if (!enabled)
             foreach (var rect in changed.Values) rect.Restore();
     }
+    public void ClearWalpurgis() => walpurgis.Dispose();
+
     SavedRect Save(IntPtr obj)
     {
         int id = U.Id(obj);
@@ -582,6 +586,7 @@ internal sealed class Layout
     {
         if (depth < 0 || !U.Alive(root) || !U.Active(root)) return;
         string name = U.Name(root);
+        if (Plugin.Instance.WalpurgisFraming.Value && LayoutMath.IsWalpurgisPanel(name)) return;
         var scrollParent = U.Parent(root);
         if (scrollParent != IntPtr.Zero)
         {

@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <Version>0.4.20</Version>
+    <Version>0.4.21</Version>
     <CoreDir Condition="'$(CoreDir)' == ''">$(MSBuildThisFileDirectory)..\deps\BepInEx\core</CoreDir>
   </PropertyGroup>
   <ItemGroup>

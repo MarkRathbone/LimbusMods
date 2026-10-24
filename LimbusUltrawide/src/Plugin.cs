@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace UltrawideLimbus;
 
-[BepInPlugin("local.limbus.verticalui", "Limbus Ultrawide", "0.9.58")]
+[BepInPlugin("local.limbus.verticalui", "Limbus Ultrawide", "0.9.59")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance = null!;
@@ -55,9 +55,11 @@ public sealed class Plugin : BasePlugin
     [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate void StaticAction(IntPtr method);
 
     internal ConfigEntry<bool> ExtractionViewport = null!;
+    internal ConfigEntry<bool> WalpurgisFraming = null!;
     public override void Load()
     {
         Instance = this;
+        WalpurgisFraming = Config.Bind("Menu", "WalpurgisFraming", true, "Preserve native Walpurgisnacht event artwork and controls; extend background edges without enlarging the central scene.");
         TraceTransition = Config.Bind("Diagnostics", "TraceTransition", true, "Bounded read-only capture of live Sisyphe formation and scene fade layers, including recreated retry instances.");
         RpgViewport = Config.Bind("RPG", "ViewportPanels", true, "Use full-window RPG HUD and popup dimming bounds while preserving native inner frames. Initial asset-based support for Grand Magasin Sisyphe.");
         TraceEgo = Config.Bind("Diagnostics", "TraceEgo", false, "Temporarily log EGO transition and banner geometry; read-only and capped.");
@@ -300,6 +302,7 @@ public sealed class Plugin : BasePlugin
     {
         Enabled.Value = false;
         BeforeLayout();
+        layout.ClearWalpurgis();
         foreach (var state in canvases) { if (U.Alive(state.Object)) ApplyScale(state); state.Dispose(); }
         foreach (var hook in detours.AsEnumerable().Reverse()) hook.Dispose();
         detours.Clear(); delegates.Clear(); canvases.Clear(); settings?.Dispose();

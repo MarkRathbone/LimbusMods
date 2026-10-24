@@ -2,6 +2,24 @@ namespace UltrawideLimbus;
 
 internal static class LayoutMath
 {
+    public static bool IsWalpurgisPanel(string name)
+    {
+        const string prefix = "Prefab_Walpu";
+        const string suffix = "UIPanel";
+        if (name.EndsWith("(Clone)", StringComparison.Ordinal)) name = name[..^7];
+        if (!name.StartsWith(prefix, StringComparison.Ordinal) || !name.EndsWith(suffix, StringComparison.Ordinal)) return false;
+        var number = name.AsSpan(prefix.Length, name.Length - prefix.Length - suffix.Length);
+        if (number.Length == 0) return false;
+        foreach (char digit in number) if (digit < '0' || digit > '9') return false;
+        return true;
+    }
+
+    public static (float Width, float Height) SpriteDrawingSize(float width, float height, float aspect, bool preserveAspect)
+    {
+        if (!preserveAspect || aspect <= 0 || width <= 0 || height <= 0) return (width, height);
+        return width / height > aspect ? (height * aspect, height) : (width, width / aspect);
+    }
+
     public static float TransitionWidthScale(float width, float height)
         => width > 0 && height > 0 ? Math.Max(1, width / (height * (16f / 9f))) : 1;
     public static (float X, float Y) PartProjectionReference((float X, float Y) reference, float width, float height)

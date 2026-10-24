@@ -4,7 +4,7 @@ using BepInEx.Unity.IL2CPP.Hook;
 using Il2CppInterop.Runtime;
 using System.Runtime.InteropServices;
 namespace LimbusCompanyUnnerfed;
-[BepInPlugin("local.limbus.unnerfed", "Limbus Unnerfed", "0.4.20")]
+[BepInPlugin("local.limbus.unnerfed", "Limbus Unnerfed", "0.4.21")]
 public sealed class Plugin : BasePlugin
 {
  readonly List<INativeDetour> hooks = new();
@@ -25,6 +25,7 @@ public sealed class Plugin : BasePlugin
  PrivacyTextHooks? privacy;
  KeywordFallback? keywordFallback;
  ReplayNodes? replays;
+ [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate void CanvasAction(IntPtr method);
  [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate ushort ValidateAction(IntPtr obj,IntPtr text,int position,ushort character,IntPtr method);
  [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate void ZeroAction(IntPtr obj,IntPtr method);
  [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate void IntAction(IntPtr obj,IntPtr arg,IntPtr method);
@@ -118,6 +119,15 @@ public sealed class Plugin : BasePlugin
     original();
     if(sprite!=IntPtr.Zero&&!observingLux&&pendingLux.Count>0)Guard(RetryLuxArtwork);
    });
+  var canvas=U.Class("Canvas","UnityEngine","UnityEngine.UIModule.dll");
+  var render=Signature.Check(canvas,"SendWillRenderCanvases","System.Void");
+  CanvasAction renderOriginal=null!;
+  CanvasAction renderReplacement=method=>{
+   renderOriginal!(method);
+   Guard(()=>{foreach(var c in luxControls.Values)if(c.Alive&&U.Active(c.Button))c.SyncLuxPosition();});
+  };
+  hooks.Add(INativeDetour.CreateAndApply(Marshal.ReadIntPtr(render),renderReplacement,out renderOriginal));
+  delegates.Add(renderReplacement);delegates.Add(renderOriginal);
   Log.LogInfo("Limbus Company Unnerfed restorations and Level Cap ready.");
   }catch {Unload();throw;}
  }

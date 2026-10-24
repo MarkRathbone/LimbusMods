@@ -1,0 +1,10 @@
+{
+  "name": "LimbusZoom",
+  "kind": "plugin",
+  "project": "src/LimbusZoom.csproj",
+  "tests": "tests/LimbusZoom.Tests.csproj",
+  "packageFiles": [
+    "README.md",
+    "Install.ps1"
+  ]
+}

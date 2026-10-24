@@ -68,3 +68,13 @@ Equal(2, LayoutMath.TransitionWidthScale(5120,1440));
 Equal(1, LayoutMath.TransitionWidthScale(0,0));
 Equal(1, LayoutMath.TransitionWidthScale(1920,1440));
 Console.WriteLine("Sisyphe transition stage width checks passed for 16:9, ultrawide, super-ultrawide and uninitialized bounds.");
+
+foreach (var name in new[] { "Prefab_Walpu4UIPanel", "Prefab_Walpu5UIPanel(Clone)", "Prefab_Walpu6UIPanel(Clone)", "Prefab_Walpu8UIPanel(Clone)" })
+    if (!LayoutMath.IsWalpurgisPanel(name)) throw new Exception("Walpurgis menu not recognized: " + name);
+foreach (var name in new[] { "Prefab_Walpu6StageSlot", "Prefab_WalpuUIPanel", "Prefab_Walpu6DetailsUIPanel", "Prefab_BossRaidUIPanel(Clone)" })
+    if (LayoutMath.IsWalpurgisPanel(name)) throw new Exception("Unrelated UI classified as event menu: " + name);
+var squareBackground = LayoutMath.SpriteDrawingSize(3000, 8437.5f, 1, true);
+Equal(3000, squareBackground.Width); Equal(3000, squareBackground.Height);
+var wideBackground = LayoutMath.SpriteDrawingSize(3000, 3000, 16f / 9, true);
+Equal(3000, wideBackground.Width); Equal(1687.5f, wideBackground.Height);
+Console.WriteLine("PASS: Walpurgis menu scope and aspect-preserving background edge geometry.");

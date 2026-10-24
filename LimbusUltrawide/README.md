@@ -10,6 +10,12 @@ Requires a compatible BepInEx 6 IL2CPP loader for your current game build. Relea
 
 Extract the release ZIP into the game folder, or run `./Install.ps1 -GameDir "path/to/Limbus Company"` with the game closed. The plugin goes in `BepInEx/plugins/LimbusUltrawide/`. Settings are saved in `BepInEx/config/local.limbus.verticalui.cfg`.
 
+## Walpurgisnacht event menus
+
+`[Menu] WalpurgisFraming = true` preserves the native event-menu artwork, door layout and decorative masks. Mirrored copies of the existing background fill additional side space without enlarging or stretching the central art. Entry costs, locks and archived-event buttons retain their normal game behavior.
+
+The shared menu family includes Walpurgisnacht 4, 5, 6 and 8; live visual checks are still required across those screens.
+
 ## Build
 
 Install the .NET 6 and .NET 10 SDKs. With the shared `LimbusBuild` folder beside this one, run:

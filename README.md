@@ -8,6 +8,7 @@ Mods and tools for Limbus Company, with a shared build and release process.
 | [LimbusUltrawide](LimbusUltrawide) | Improved Ultrawide UI, story and combat layouts |
 | [LimbusUnnerfed](LimbusUnnerfed) | Removes nerfs from story bosses and adds optional level and threadspin caps |
 | [LimbusCollectionExporter](LimbusCollectionExporter) | Exports identitiy, ego and facade ownership into CSV/JSON |
+| [LimbusZoom](LimbusZoom) | Mouse-wheel zoom for story and dungeon maps |
 | [LimbusBuild](LimbusBuild) | Shared build, test, packaging and release scripts. |
 
 All projects live in this one repository.

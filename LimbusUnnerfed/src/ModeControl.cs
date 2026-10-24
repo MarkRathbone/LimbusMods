@@ -98,16 +98,21 @@ internal sealed class ModeControl : IDisposable
   U.Set(Label,"fontSize",26f);
  }
  public void SetVisible(bool visible){if(Alive){U.ActiveSelf(U.GO(Button),visible);if(visible){SyncLuxPosition();U.Call(U.Transform(Button),"SetAsLastSibling");}}}
- void SyncLuxPosition()
+ internal void SyncLuxPosition()
  {
   if(luxGridHandle==IntPtr.Zero)return;
   var grid=IL2CPP.il2cpp_gchandle_get_target(luxGridHandle);
   var source=IL2CPP.il2cpp_gchandle_get_target(luxSourceHandle);
+  if(!Alive||!U.Alive(grid)||!U.Alive(source))return;
+  var width=U.Get<R4>(source,"rect").Width;
+  if(!float.IsFinite(width)||width<=0)return;
   var rect=U.Transform(Button);var parent=U.Parent(rect);var bounds=U.Get<R4>(grid,"rect");
   var bottom=U.Map(parent,"InverseTransformPoint",U.Map(grid,"TransformPoint",new V3(bounds.X+bounds.Width*.5f,bounds.Y,0)));
   U.Set(rect,"anchorMin",new V2(.5f,.5f));U.Set(rect,"anchorMax",new V2(.5f,.5f));
-  U.Set(rect,"pivot",new V2(.5f,1));U.Set(rect,"sizeDelta",new V2(U.Get<R4>(source,"rect").Width,75));
-  U.Set(rect,"localPosition",bottom with{Y=bottom.Y-32,Z=0});
+  U.Set(rect,"pivot",new V2(.5f,1));
+  var size=new V2(width,75);if(U.Get<V2>(rect,"sizeDelta")!=size)U.Set(rect,"sizeDelta",size);
+  var position=bottom with{Y=bottom.Y-32,Z=0};
+  if(U.Get<V3>(rect,"localPosition")!=position)U.Set(rect,"localPosition",position);
  }
  public void Hover(bool value){if(hoverHandle==IntPtr.Zero){var image=IL2CPP.il2cpp_gchandle_get_target(imageHandle);if(U.Alive(image))U.Set(image,"color",value?new Color(1,.72f,.3f,1):imageColor);return;}var hover=IL2CPP.il2cpp_gchandle_get_target(hoverHandle);if(U.Alive(hover))U.ActiveSelf(U.GO(hover),value);}
  static IntPtr FindArtwork(IntPtr root,IntPtr klass,int depth)

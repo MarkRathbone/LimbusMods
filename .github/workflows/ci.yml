@@ -26,7 +26,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, os, re
-          projects = ['LimbusBuild', 'LimbusAutodialogue', 'LimbusUltrawide', 'LimbusUnnerfed', 'LimbusCollectionExporter']
+          projects = ['LimbusBuild', 'LimbusAutodialogue', 'LimbusUltrawide', 'LimbusUnnerfed', 'LimbusCollectionExporter','LimbusZoom']
           if os.environ['BUILD_REF'].startswith('refs/tags/'):
               tag = os.environ['BUILD_TAG']
               name, separator, version = tag.partition('/')
