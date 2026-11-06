@@ -52,4 +52,6 @@ Limbus Unnerfed includes optional test stages for the restored bosses. They are 
 
 These stages use the Unnerfed profiles, are free to enter, and give no rewards or story progress. To hide them again, set `EnableReplayNodes = false` and restart.
 
+## AI Usage
+
 AI disclosure: Partial AI assistance with Limbus Company data mining and code bug fixing. READMEs are AI-written.
