@@ -1,4 +1,4 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param([string]$OutputDirectory=(Join-Path $PSScriptRoot 'outputs'),[switch]$RefreshDiscovery)
 $ErrorActionPreference='Stop'
 New-Item -ItemType Directory -Path $OutputDirectory -Force | Out-Null
@@ -11,6 +11,34 @@ function Read-Map($folder,$pattern){$map=@{};Get-ChildItem -LiteralPath $folder 
 function Decode-Int([long]$address){return $reader.Int($address) -bxor $reader.Int($address+4)}
 function Format-Day([int]$date){if($date -eq 0){return ''};return [datetime]::ParseExact([string]$date,'yyyyMMdd',[Globalization.CultureInfo]::InvariantCulture).ToString('dd/MM/yyyy')}
 function Format-Season([int]$season){if($season -ge 9101 -and $season -le 9199){return 'Walpurgis Night '+($season-9100)};if($season -eq 8000){return 'Collaboration - Limited'};return "Season $season"}
+function Get-WikiUrl([string]$Name,[string]$Sinner,[bool]$UniqueFacade=$false){
+    $title=($Name -replace '[\[\]]','') -replace '\s*::\s*','::'
+    $title=($title.Trim()+' '+$Sinner.Trim()) -replace '\s+【','【' -replace '】\s+','】'
+    $title=($title -replace '\s+','_').Normalize([Text.NormalizationForm]::FormC)
+    $slug=[Uri]::EscapeDataString($title).Replace('%3A',':')
+    if($UniqueFacade){return 'https://limbuscompany.wiki.gg/wiki/List_of_Unique_Fa%C3%A7ades#'+$slug}
+    return 'https://limbuscompany.wiki.gg/wiki/'+$slug
+}
+function ConvertTo-WikiCsvRow($Row){
+    $values=[ordered]@{}
+    foreach($property in $Row.PSObject.Properties){
+        $values[$property.Name]=$property.Value
+    }
+    $uniqueFacade=($Row.Kind -eq 'Façade') -or ($null -ne $Row.PSObject.Properties['FacadeID'])
+    $url=Get-WikiUrl $Row.Name $Row.Sinner $uniqueFacade
+    $label=([string]$Row.Name).Replace('"','""')
+    $values['Name']='=HYPERLINK("'+$url+'","'+$label+'")'
+    return [pscustomobject]$values
+}
+function ConvertTo-CollectionCsvRow($Row,[int]$SheetRow){
+    if($SheetRow -lt 2){throw 'Collection data starts at spreadsheet row 2.'}
+    $linked=ConvertTo-WikiCsvRow $Row
+    $linked.'1'='=SWITCH(B{r},"Yi Sang",1,"Faust",2,"Don Quixote",3,"Ryōshū",4,"Meursault",5,"Hong Lu",6,"Heathcliff",7,"Ishmael",8,"Rodion",9,"Dante",10,"Sinclair",11,"Outis",12,"Gregor",13,"?")'.Replace('{r}',[string]$SheetRow)
+    $linked.Percentage='=IF(OR(F{r}="No",AND(C{r}="E.G.O",G{r}="Yes")),0%,IF(COUNTIFS(C:C,"E.G.O",F:F,"Yes",G:G,"Yes")=COUNTIFS(C:C,"E.G.O",F:F,"Yes"),IF(D{r}=3,3%,IF(D{r}=2,13%,IF(D{r}=1,84%,IF(C{r}="E.G.O",0%,0)))),IF(D{r}=3,2.9%,IF(D{r}=2,12.8%,IF(D{r}=1,83%,IF(C{r}="E.G.O",1.3%,0))))))/IF(OR(D{r}=1,D{r}=2,D{r}=3),MAX(1,COUNTIFS(D:D,D{r},F:F,"Yes")),IF(C{r}="E.G.O",MAX(1,COUNTIFS(C:C,"E.G.O",F:F,"Yes",G:G,"No")),1))'.Replace('{r}',[string]$SheetRow)
+    $order='=A{r}*100+IFERROR(MATCH(D{r},{1,2,3,"ZAYIN","TETH","HE","WAW","ALEPH"},0),999)'.Replace('{r}',[string]$SheetRow)
+    $linked|Add-Member -NotePropertyName Order -NotePropertyValue $order
+    return $linked
+}
 function Is-Class([long]$p,[string]$name){return $p -gt 0 -and $reader.Name($p) -eq $name}
 try {
     $cache=$null
@@ -107,7 +135,7 @@ try {
             }
             if(-not $sinnerNames.ContainsKey($sinner)){throw "Unknown sinner $sinner"}
             $percentage=if($rates.ContainsKey([int]$id)){$rates[[int]$id]}else{0.0}
-            $row=[pscustomobject][ordered]@{'1'=$sinner;Sinner=$sinnerNames[$sinner].name;Kind=$kind;Rarity=$rarity;Name=$name;'In Standard?'=$(if($pool.ContainsKey([int]$id)){'Yes'}else{'No'});'Owned?'=$(if($owned){'Yes'}else{'No'});Percentage=($percentage.ToString('F4',[Globalization.CultureInfo]::InvariantCulture)+'%');Uptie=$up;Level=$level;Facade=$facade;Season=(Format-Season $season);Day=(Format-Day $date)}
+            $row=[pscustomobject][ordered]@{'1'=$sinner;Sinner=$sinnerNames[$sinner].name;Kind=$kind;Rarity=$rarity;Name=$name;'In Standard?'=$(if($pool.ContainsKey([int]$id)){'Yes'}else{'No'});'Owned?'=$(if($owned){'Yes'}else{'No'});Uptie=$up;Level=$level;Facade=$facade;Season=(Format-Season $season);Day=(Format-Day $date);Percentage=($percentage.ToString('F4',[Globalization.CultureInfo]::InvariantCulture)+'%')}
             $rowIds[$row.Sinner+'|'+$row.Kind+'|'+$row.Name]=[int]$id;$rows.Add($row);$detail.Add([pscustomobject]@{ID=[int]$id;Kind=$kind;SinnerID=$sinner;Sinner=$row.Sinner;Name=$name;Owned=$owned;Tier=$up;Level=$level;Facade=$facade;Rarity=$rarity;SeasonID=$season;ReleaseDate=$row.Day;InStandard=$pool.ContainsKey([int]$id);Percentage=$percentage})
         }
     }
@@ -135,17 +163,17 @@ try {
         if(-not $sinnerNames.ContainsKey($sinner)){throw "Unknown standalone facade sinner: $id"}
         $owned=$facades.ContainsKey([int]$id);$yes=if($owned){'Yes'}else{'No'}
         $name=$local.title -replace '\s+',' ';$season=if($meta){Format-Season ([int]$meta.SeasonID)}else{''};$day=if($meta){$meta.Day}else{''}
-        $row=[pscustomobject][ordered]@{'1'=$sinner;Sinner=$sinnerNames[$sinner].name;Kind='Façade';Rarity='Façade';Name=$name;'In Standard?'='No';'Owned?'=$yes;Percentage='0.0000%';Uptie='';Level='';Facade=$yes;Season=$season;Day=$day}
+        $row=[pscustomobject][ordered]@{'1'=$sinner;Sinner=$sinnerNames[$sinner].name;Kind='Façade';Rarity='Façade';Name=$name;'In Standard?'='No';'Owned?'=$yes;Uptie='';Level='';Facade=$yes;Season=$season;Day=$day;Percentage='0.0000%'}
         $rowIds[$row.Sinner+'|'+$row.Kind+'|'+$row.Name]=[int]$id;$rows.Add($row)
         $detail.Add([pscustomobject]@{ID=[int]$id;Kind='Façade';SinnerID=$sinner;Sinner=$row.Sinner;Name=$name;Owned=$owned;Tier='';Level='';Facade=$yes;Rarity='Façade';SeasonID=$(if($meta){[int]$meta.SeasonID}else{$null});ReleaseDate=$day;InStandard=$false;Percentage=0.0})
     }
     $ordered=@($rows|Sort-Object {$_.'1'},{if($_.Kind -eq 'Identity'){0}elseif($_.Kind -eq 'E.G.O'){1}else{2}},{$rowIds[$_.Sinner+'|'+$_.Kind+'|'+$_.Name]})
     New-Item -ItemType Directory -Path $OutputDirectory -Force|Out-Null
     $csv=Join-Path $OutputDirectory 'limbus-collection.csv'
-    $ordered|Export-Csv -LiteralPath $csv -NoTypeInformation -Encoding UTF8
+    @(for($i=0;$i -lt $ordered.Count;$i++){ConvertTo-CollectionCsvRow $ordered[$i] ($i+2)})|Export-Csv -LiteralPath $csv -NoTypeInformation -Encoding UTF8
     $detail|ConvertTo-Json -Depth 5|Set-Content -LiteralPath (Join-Path $OutputDirectory 'limbus-collection.json') -Encoding UTF8
     $facadeRows=@(foreach($id in $facades.Keys|Sort-Object){$local=$identityNames[[int]$id];[pscustomobject]@{FacadeID=$id;Sinner=$local.name;Name=($local.title -replace '\s+',' ');Unlocked='Yes'}})
-    $facadeRows|Export-Csv -LiteralPath (Join-Path $OutputDirectory 'limbus-facades.csv') -NoTypeInformation -Encoding UTF8
+    @(foreach($row in $facadeRows){ConvertTo-WikiCsvRow $row})|Export-Csv -LiteralPath (Join-Path $OutputDirectory 'limbus-facades.csv') -NoTypeInformation -Encoding UTF8
     $snapshot=[pscustomobject]@{CapturedAtUTC=[datetime]::UtcNow.ToString('o');ProcessId=$process.Id;OwnedIdentities=$ownedIdentities.Count;OwnedEgos=$ownedEgos.Count;UnlockedFacades=$facades.Count;CSVRows=$ordered.Count;StandardBannerID=1;StandardEgoPool=$standardEgos.Count;UnownedStandardEgos=$remainingEgos.Count;AllStandardEgosOwned=$allEgoOwned;Rates='Single extraction; live standard-banner pool; account-adjusted for owned E.G.O';DaySource='Game static-data updatedDate field';Access='Read-only OpenProcess, VirtualQueryEx, ReadProcessMemory; no writes or injection'}
     $snapshot|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $OutputDirectory 'limbus-export-info.json') -Encoding UTF8
     Write-Host "Exported $($ownedIdentities.Count) owned identities, $($ownedEgos.Count) owned E.G.O, and $($facades.Count) facade unlocks to $csv"

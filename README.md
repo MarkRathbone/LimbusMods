@@ -51,3 +51,5 @@ Limbus Unnerfed includes optional test stages for the restored bosses. They are 
 5. Open the Canto VIII map and scroll to the right of its final nodes, near **8-33**. The boss test stages appear as **T1?T14**.
 
 These stages use the Unnerfed profiles, are free to enter, and give no rewards or story progress. To hide them again, set `EnableReplayNodes = false` and restart.
+
+AI disclosure: Partial AI assistance with Limbus Company data mining and code bug fixing. READMEs are AI-written.
