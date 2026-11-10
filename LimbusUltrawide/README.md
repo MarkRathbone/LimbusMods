@@ -31,3 +31,8 @@ Tests check layout calculations; they cannot verify every live UI or effect. Gam
 ## Releases
 
 Push a project/version tag, such as `LimbusUltrawide/v0.9.57`. The shared GitHub Actions workflow builds, tests and publishes the ZIP and checksum. Branch pushes and pull requests build without publishing. Research, captures and local game files stay in ignored folders.
+
+
+## Extraction animations
+
+`[Extraction] ViewportAnimations=true` preserves the chain/orb scene's original vertical framing while showing more at the sides. The background RenderTexture display and its own camera projection are adjusted together, preventing the square background from growing to the ultrawide width. Native camera FOV, zoom timing, and result-card layout are retained. The setting restores the background layout and camera aspect when disabled. An opaque full-window black backing hides the underlying banner through animation gaps and side margins, without enlarging the artwork. It blocks clicks through those gaps and disappears with the extraction UI. The separate new identity/E.G.O illustration reveal still needs visual verification.

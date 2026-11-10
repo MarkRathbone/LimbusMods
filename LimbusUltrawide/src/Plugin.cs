@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace UltrawideLimbus;
 
-[BepInPlugin("local.limbus.verticalui", "Limbus Ultrawide", "0.9.59")]
+[BepInPlugin("local.limbus.verticalui", "Limbus Ultrawide", "0.9.64")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance = null!;
@@ -138,6 +138,8 @@ public sealed class Plugin : BasePlugin
         InstallCameraHook();
         InstallPartProjectionHook();
         InspectionBuffs.ValidateArrayInterop();
+        try { ExtractionLayout.ValidateController(); }
+        catch (Exception ex) { ExtractionViewport.Value = false; Log.LogWarning("Extraction framing unavailable: " + ex.Message); }
         Log.LogInfo("Launch-loaded UI mod ready. External memory tool is not required.");
     }
 
@@ -303,6 +305,7 @@ public sealed class Plugin : BasePlugin
         Enabled.Value = false;
         BeforeLayout();
         layout.ClearWalpurgis();
+        layout.ClearExtraction();
         foreach (var state in canvases) { if (U.Alive(state.Object)) ApplyScale(state); state.Dispose(); }
         foreach (var hook in detours.AsEnumerable().Reverse()) hook.Dispose();
         detours.Clear(); delegates.Clear(); canvases.Clear(); settings?.Dispose();

@@ -78,3 +78,13 @@ Equal(3000, squareBackground.Width); Equal(3000, squareBackground.Height);
 var wideBackground = LayoutMath.SpriteDrawingSize(3000, 3000, 16f / 9, true);
 Equal(3000, wideBackground.Width); Equal(1687.5f, wideBackground.Height);
 Console.WriteLine("PASS: Walpurgis menu scope and aspect-preserving background edge geometry.");
+
+var extractionNormal = LayoutMath.ExtractionView(2560, 1440, 1);
+var extractionWide = LayoutMath.ExtractionView(3440, 1440, 1);
+Equal(2560, extractionNormal.Height); Equal(1, extractionNormal.Aspect);
+Equal(extractionNormal.Height, extractionWide.Height); Equal(3440f / 2560, extractionWide.Aspect);
+var extractionSuperWide = LayoutMath.ExtractionView(5120, 1440, 1);
+Equal(2560, extractionSuperWide.Height); Equal(2, extractionSuperWide.Aspect);
+Equal(3000, LayoutMath.ExtractionView(4031.25f, 1687.5f, 1).Height);
+Equal(1440, LayoutMath.ExtractionView(3440, 1440, 16f / 9).Height);
+Console.WriteLine("PASS: extraction retains native vertical framing across ultrawide and super-ultrawide camera projections.");

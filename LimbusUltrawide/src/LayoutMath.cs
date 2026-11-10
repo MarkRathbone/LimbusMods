@@ -2,6 +2,14 @@ namespace UltrawideLimbus;
 
 internal static class LayoutMath
 {
+    public static (float Height, float Aspect) ExtractionView(float width, float height, float sourceAspect)
+    {
+        if (width <= 0 || height <= 0 || sourceAspect <= 0 || !float.IsFinite(width) || !float.IsFinite(height) || !float.IsFinite(sourceAspect))
+            throw new ArgumentOutOfRangeException(nameof(width));
+        float artHeight = Math.Max(height, height * (16f / 9f) / sourceAspect);
+        return (artHeight, width / artHeight);
+    }
+
     public static bool IsWalpurgisPanel(string name)
     {
         const string prefix = "Prefab_Walpu";

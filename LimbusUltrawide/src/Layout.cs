@@ -27,7 +27,7 @@ internal sealed class Layout
     readonly Dictionary<int, byte> outcomePreserveAspect = new();
     readonly Dictionary<int, ScreenGraphic> transitionBackings = new();
     readonly HashSet<int> tracedTransitions = new();
-    readonly Dictionary<int, int> extractionRoots = new();
+    readonly ExtractionLayout extraction = new();
     readonly Dictionary<int, InspectionBuffs> inspectionBuffs = new();
 
     public void Apply(CanvasState canvas, Plugin plugin)
@@ -73,29 +73,15 @@ internal sealed class Layout
     }
     void Extraction(CanvasState canvas, Plugin plugin, bool enabled)
     {
-        SavedRect? saved = null;
-        if (extractionRoots.TryGetValue(canvas.Id, out int id))
+        try { extraction.Apply(canvas, plugin, enabled && plugin.ExtractionViewport.Value); }
+        catch (Exception ex)
         {
-            if (!changed.TryGetValue(id, out saved) || !U.Alive(saved.Object))
-            {
-                extractionRoots.Remove(canvas.Id);
-                saved = null;
-            }
+            plugin.ExtractionViewport.Value = false;
+            extraction.Dispose();
+            plugin.LogMessage("Extraction framing disabled: " + ex.Message, true);
         }
-        if (saved == null && plugin.Discover)
-        {
-            var root = U.Find(canvas.Root, "GachaResultUI(Clone)", 4);
-            if (root != IntPtr.Zero)
-            {
-                saved = Save(root);
-                extractionRoots[canvas.Id] = U.Id(root);
-            }
-        }
-        if (saved == null || !U.Active(saved.Object)) return;
-        // The reveal applies its own artwork framing inside this root.
-        if (enabled && plugin.ExtractionViewport.Value) saved.HorizontalViewport(canvas.Root);
-        else saved.Restore();
     }
+    public void ClearExtraction() => extraction.Dispose();
     void FormationSelectorBacking(CanvasState canvas, bool enabled)
     {
         var panel = U.Find(canvas.Root, "[UIPanel]FormationSwitchablePersonalityUIPanel", 4);
