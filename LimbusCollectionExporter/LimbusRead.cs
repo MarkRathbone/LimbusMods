@@ -1,4 +1,4 @@
-using System;using System.Collections.Generic;using System.Runtime.InteropServices;using System.Text;using System.IO;
+﻿using System;using System.Collections.Generic;using System.Runtime.InteropServices;using System.Text;using System.IO;
 public class LimbusRead {
 [DllImport("kernel32.dll",SetLastError=true)]static extern IntPtr OpenProcess(uint a,bool b,int c);[DllImport("kernel32.dll")]static extern bool CloseHandle(IntPtr h);[DllImport("kernel32.dll")]static extern UIntPtr VirtualQueryEx(IntPtr h,IntPtr p,out M m,UIntPtr n);[DllImport("kernel32.dll")]static extern bool ReadProcessMemory(IntPtr h,IntPtr p,byte[] b,UIntPtr n,out UIntPtr r);
 [StructLayout(LayoutKind.Sequential)]struct M{public IntPtr Base,Alloc;public uint AllocProtect;public ushort Partition;public UIntPtr Size;public uint State,Protect,Type;}
@@ -16,4 +16,16 @@ public long[] List(long p){int n=Int(p+24);if(n<0||n>100000)return new long[0];l
 public string[] Dict(long p){int n=Int(p+32);if(n<0||n>100000)return new string[0];long a=I64(p+24);var b=Read(a+32,n*24);var result=new List<string>();for(int i=0;i<n;i++){int next=BitConverter.ToInt32(b,i*24+4);if(next < -1)continue;int key=BitConverter.ToInt32(b,i*24+8);long value=BitConverter.ToInt64(b,i*24+16);result.Add(key+","+value.ToString("X"));}return result.ToArray();}
 public int[] IntList(long p){int n=Int(p+24);if(n<0||n>100000)return new int[0];long a=I64(p+16);var b=Read(a+32,n*4);var result=new int[n];for(int i=0;i<n;i++)result[i]=BitConverter.ToInt32(b,i*4);return result;}
 public int[] Set(long p){int n=Int(p+36);if(n<0||n>100000)return new int[0];long a=I64(p+24);var b=Read(a+32,n*12);var result=new List<int>();for(int i=0;i<n;i++){if(BitConverter.ToInt32(b,i*12)>=0)result.Add(BitConverter.ToInt32(b,i*12+8));}return result.ToArray();}
+public int Offset(long klass,string name){
+for(int depth=0;klass!=0&&depth<32;depth++,klass=I64(klass+88)){
+ long fields=I64(klass+128);if(fields==0)continue;
+ for(int i=0;i<512;i++){
+  long field=fields+i*32;if(I64(field+16)!=klass)break;
+  if(Str(I64(field))!=name)continue;
+  int offset=Int(field+24);if(offset<0||offset>65536)throw new InvalidOperationException("Invalid field offset: "+name);
+  return offset;
+ }
+}
+throw new MissingFieldException("Game metadata field not found: "+name);
+}
 }

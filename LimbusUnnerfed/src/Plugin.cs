@@ -4,7 +4,7 @@ using BepInEx.Unity.IL2CPP.Hook;
 using Il2CppInterop.Runtime;
 using System.Runtime.InteropServices;
 namespace LimbusCompanyUnnerfed;
-[BepInPlugin("local.limbus.unnerfed", "Limbus Unnerfed", "0.4.21")]
+[BepInPlugin("local.limbus.unnerfed", "Limbus Unnerfed", "0.4.23")]
 public sealed class Plugin : BasePlugin
 {
  readonly List<INativeDetour> hooks = new();

@@ -11,6 +11,10 @@
     10514,
     10515,
     10516,
+    10574,
+    10575,
+    10576,
+    10577,
     10635,
     10637,
     10638,
@@ -5835,6 +5839,466 @@
         "Casino_Eyed"
       ],
       "source": "aida-launch-video"
+    },
+    {
+      "kind": "buff:EmotionLevelZero",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAH",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAT",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnAllyDie",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "TakeSinBuffDamageMultiplier",
+          "value": -0.75,
+          "buffData": {
+            "buffKeyword": "Combustion"
+          }
+        }
+      ],
+      "restored": [
+        {
+          "ability": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAH",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAT",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnAllyDie",
+          "buffData": {
+            "buffKeyword": "EmotionLevelZero",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "walpu10-official-2026-11-12"
+    },
+    {
+      "kind": "buff:EmotionLevelOne",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "SkillPowerResultAdder",
+          "value": 1
+        },
+        {
+          "ability": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAH",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAT",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnAllyDie",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "TakeSinBuffDamageMultiplier",
+          "value": -0.75,
+          "buffData": {
+            "buffKeyword": "Combustion"
+          }
+        }
+      ],
+      "restored": [
+        {
+          "ability": "SkillPowerResultAdder",
+          "value": 1
+        },
+        {
+          "ability": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAH",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAT",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnAllyDie",
+          "buffData": {
+            "buffKeyword": "EmotionLevelOne",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "walpu10-official-2026-11-12"
+    },
+    {
+      "kind": "buff:EmotionLevelTwo",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "SkillPowerResultAdder",
+          "value": 2
+        },
+        {
+          "ability": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAH",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAT",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnAllyDie",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "TakeSinBuffDamageMultiplier",
+          "value": -0.75,
+          "buffData": {
+            "buffKeyword": "Combustion"
+          }
+        }
+      ],
+      "restored": [
+        {
+          "ability": "SkillPowerResultAdder",
+          "value": 2
+        },
+        {
+          "ability": "GiveBuffOnWinDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAH",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnKillTarget",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 3,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnLoseDuel",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnSAT",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnAllyDie",
+          "buffData": {
+            "buffKeyword": "EmotionLevelTwo",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        }
+      ],
+      "source": "walpu10-official-2026-11-12"
+    },
+    {
+      "kind": "buff:EmotionLevelThree",
+      "id": 0,
+      "path": [
+        "list"
+      ],
+      "expected": [
+        {
+          "ability": "SkillPowerResultAdder",
+          "value": 3
+        },
+        {
+          "ability": "TakeSinBuffDamageMultiplier",
+          "value": -0.75,
+          "buffData": {
+            "buffKeyword": "Combustion"
+          }
+        }
+      ],
+      "restored": [
+        {
+          "ability": "SkillPowerResultAdder",
+          "value": 3
+        }
+      ],
+      "source": "walpu10-official-2026-11-12"
     }
   ]
 }

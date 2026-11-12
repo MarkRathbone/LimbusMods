@@ -14,6 +14,7 @@ internal sealed class CombatHooks : IDisposable
  bool UseExData=>true;
  public void BeginPreview(){active=false;pendingCap=combatCap=uptieCap=threadspinCap=0;}
  readonly HashSet<int> verifiedSkills=new();
+ readonly HashSet<string> verifiedBuffs=new();
  [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate void StageInit(IntPtr obj,IntPtr stage,IntPtr formation,byte flag,int stageType,IntPtr method);
  [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate IntPtr SkillGet(IntPtr obj,int id,IntPtr method);
  [UnmanagedFunctionPointer(CallingConvention.Cdecl)] delegate IntPtr TextGet(IntPtr obj,IntPtr method);
@@ -91,7 +92,7 @@ internal sealed class CombatHooks : IDisposable
    Install(Plugin.Game(table.Item1),"GetData",table.Item2,new[]{"System.Int32"},replacement,out original);
   }
   StringGet buffDataOriginal=null!;
-  StringGet buffDataReplacement=(obj,id,method)=>{var result=buffDataOriginal!(obj,id,method);if(!active)return result;try{return profile.RestoreData(result,"buff:"+IL2CPP.Il2CppStringToManaged(id),0);}catch(Exception e){log("Rejected buff restoration: "+e.Message);return result;}};
+  StringGet buffDataReplacement=(obj,id,method)=>{var result=buffDataOriginal!(obj,id,method);if(!active)return result;try{var key=IL2CPP.Il2CppStringToManaged(id)??string.Empty;var restored=profile.RestoreData(result,"buff:"+key,0);if(restored!=result&&verifiedBuffs.Add(key))log("Restored buff: "+key);return restored;}catch(Exception e){log("Rejected buff restoration: "+e.Message);return result;}};
   Install(Plugin.Game("BuffStaticDataList"),"GetData","BuffStaticData",new[]{"System.String"},buffDataReplacement,out buffDataOriginal);
   SkillGet passiveOriginal=null!;
   SkillGet passiveReplacement=(obj,id,method)=>{var result=passiveOriginal!(obj,id,method);try{return profile.RestoreData(result,"passive",id);}catch(Exception e){log("Passive restoration rejected: "+e.Message);return result;}};
@@ -158,7 +159,15 @@ internal sealed class CombatHooks : IDisposable
    FormattedTextGet buffOriginal=null!;
    FormattedTextGet buffReplacement=(obj,args,method)=>{
     try{if(UseExData)obj=profile.BuffText(obj);}catch(Exception e){log("Ex buff description restoration failed: "+e);}
-    return buffOriginal!(obj,args,method);
+    var result=buffOriginal!(obj,args,method);
+    try{
+     if(UseExData&&DescriptionRules.IsEmotionLevel(N.StringField(obj,"id"))){
+      var text=IL2CPP.Il2CppStringToManaged(result)??string.Empty;
+      var restored=DescriptionRules.RestoreBuff(N.StringField(obj,"id"),text);
+      if(restored!=text)return IL2CPP.ManagedStringToIl2Cpp(restored);
+     }
+    }catch(Exception e){log("Emotion Level tooltip restoration failed: "+e.Message);}
+    return result;
    };
    Install(Plugin.Game("TextData_Buf"),name,"System.String",new[]{"System.Object[]"},buffReplacement,out buffOriginal);
   }

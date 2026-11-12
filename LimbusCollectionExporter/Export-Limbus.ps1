@@ -50,16 +50,39 @@ try {
         $objectPath=Join-Path $PSScriptRoot '.limbus-objects.tmp'
         $reader.Discover($classPath)
         $reader.Fields($classPath,$fieldPath)
-        # Check the key layouts before interpreting account data. Stop on incompatible game updates.
-        $fields=Get-Content -LiteralPath $fieldPath -Raw
-        foreach($expected in '_id=16','_level=32','_gacksung=52','_ownedSkinIds=24','<IsInited>k__BackingField=304'){
-            if(-not $fields.Contains($expected)){throw "Game data layout changed or model not loaded: $expected"}
-        }
         $reader.Objects($classPath,$objectPath)
         $objects=@(Get-Content -LiteralPath $objectPath|ForEach-Object {$v=$_ -split ',';[pscustomobject]@{Type=$v[0];Address=$v[1]}})
-        $cache=[pscustomobject]@{ProcessId=$process.Id;StartTime=$stamp;Classes=@(Get-Content -LiteralPath $classPath);Objects=$objects}
+        $cache=[pscustomobject]@{ProcessId=$process.Id;StartTime=$stamp;Classes=[IO.File]::ReadAllLines($classPath);Objects=$objects}
         $cache|ConvertTo-Json -Depth 5|Set-Content -LiteralPath $cachePath -Encoding UTF8
         Remove-Item -LiteralPath $classPath,$fieldPath,$objectPath
+    }
+    $classes=@{}
+    foreach($entry in $cache.Classes){
+        $line=if($entry -is [string]){$entry}else{[string]$entry.value}
+        $parts=$line -split ','
+        if($parts.Count -ne 2){throw 'Invalid runtime class cache. Retry with -RefreshDiscovery.'}
+        $classes[$parts[0]]=[Convert]::ToInt64($parts[1],16)
+    }
+    function Get-StaticLayout([string]$ClassName,[string[]]$Fields){
+        if(-not $classes.ContainsKey($ClassName)){throw "Game class not loaded: $ClassName. Retry with -RefreshDiscovery."}
+        $layout=@{}
+        foreach($field in $Fields){$layout[$field]=$reader.Offset($classes[$ClassName],$field)}
+        return $layout
+    }
+    $identityLayout=Get-StaticLayout 'PersonalityStaticData' @('id','characterId','rank','season','updatedDate')
+    $egoLayout=Get-StaticLayout 'EgoStaticData' @('id','characterId','_egoType','season','updatedDate')
+    $accountLayouts=@{
+        Personality=@{_id=16;_level=32;_gacksung=52;_classInfo=96}
+        Ego=@{_id=16;_gacksung=32;_classInfo=64}
+        UserSkinData=@{_ownedSkinIds=24}
+        UserDataManager=@{'<IsInited>k__BackingField'=304;_personalities=32;_skins=40;_egos=56}
+    }
+    foreach($type in $accountLayouts.Keys){
+        foreach($field in $accountLayouts[$type].Keys){
+            if(-not $classes.ContainsKey($type) -or $reader.Offset($classes[$type],$field) -ne $accountLayouts[$type][$field]){
+                throw "Account data layout changed: $type.$field. Export stopped before reading account values."
+            }
+        }
     }
     $manager=0L
     foreach($obj in $cache.Objects|Where-Object Type -eq 'UserDataManager'){
@@ -92,10 +115,10 @@ try {
     foreach($obj in $cache.Objects){
         $p=[Convert]::ToInt64($obj.Address,16)
         if($obj.Type -eq 'PersonalityStaticData' -and (Is-Class $p 'PersonalityStaticData')){
-            $id=$reader.Int($p+32);$sinner=$reader.Int($p+384);$date=$reader.Int($p+440)
+            $id=$reader.Int($p+$identityLayout.id);$sinner=$reader.Int($p+$identityLayout.characterId);$date=$reader.Int($p+$identityLayout.updatedDate)
             if($id -ge 10101 -and $id -le 11299 -and $sinner -ge 1 -and $sinner -le 12 -and $date -ge 20230227 -and $identityNames.ContainsKey($id)){$identityCatalog[$id]=$p}
         }elseif($obj.Type -eq 'EgoStaticData' -and (Is-Class $p 'EgoStaticData')){
-            $id=$reader.Int($p+16);$sinner=$reader.Int($p+20);$date=$reader.Int($p+40)
+            $id=$reader.Int($p+$egoLayout.id);$sinner=$reader.Int($p+$egoLayout.characterId);$date=$reader.Int($p+$egoLayout.updatedDate)
             if($id -ge 20101 -and $id -le 21299 -and $sinner -ge 1 -and $sinner -le 12 -and $date -ge 20230227 -and $egoNames.ContainsKey($id)){$egoCatalog[$id]=$p}
         }
     }
@@ -127,13 +150,13 @@ try {
         foreach($id in $catalog.Keys|Sort-Object){
             $p=[long]$catalog[$id];$owned=if($kind -eq 'Identity'){$ownedIdentities.ContainsKey([int]$id)}else{$ownedEgos.ContainsKey([int]$id)}
             if($kind -eq 'Identity'){
-                $sinner=$reader.Int($p+384);$rarity=$reader.Int($p+412);$name=$identityNames[[int]$id].title -replace '\s+',' ';$season=$reader.Int($p+388);$date=$reader.Int($p+440)
+                $sinner=$reader.Int($p+$identityLayout.characterId);$rarity=$reader.Int($p+$identityLayout.rank);$name=$identityNames[[int]$id].title -replace '\s+',' ';$season=$reader.Int($p+$identityLayout.season);$date=$reader.Int($p+$identityLayout.updatedDate)
                 $up=if($owned){$ownedIdentities[[int]$id].Uptie}else{''};$level=if($owned){$ownedIdentities[[int]$id].Level}else{''};$facade=if($facades.ContainsKey([int]$id)){'Yes'}else{'No'}
             }else{
-                $sinner=$reader.Int($p+20);$risk=$reader.Int($p+32);if($risk -lt 0 -or $risk -gt 4){throw "Unknown E.G.O risk $risk"};$rarity=@('ZAYIN','TETH','HE','WAW','ALEPH')[$risk];$name=$egoNames[[int]$id].name;$season=$reader.Int($p+36);$date=$reader.Int($p+40)
+                $sinner=$reader.Int($p+$egoLayout.characterId);$risk=$reader.Int($p+$egoLayout._egoType);if($risk -lt 0 -or $risk -gt 4){throw "Unknown E.G.O risk $risk"};$rarity=@('ZAYIN','TETH','HE','WAW','ALEPH')[$risk];$name=$egoNames[[int]$id].name;$season=$reader.Int($p+$egoLayout.season);$date=$reader.Int($p+$egoLayout.updatedDate)
                 $up=if($owned){$ownedEgos[[int]$id].Threadspin}else{''};$level='';$facade=''
             }
-            if(-not $sinnerNames.ContainsKey($sinner)){throw "Unknown sinner $sinner"}
+            if(-not $sinnerNames.ContainsKey($sinner)){throw "Unknown sinner $sinner for $kind $id; refusing to export uncertain data."}
             $percentage=if($rates.ContainsKey([int]$id)){$rates[[int]$id]}else{0.0}
             $row=[pscustomobject][ordered]@{'1'=$sinner;Sinner=$sinnerNames[$sinner].name;Kind=$kind;Rarity=$rarity;Name=$name;'In Standard?'=$(if($pool.ContainsKey([int]$id)){'Yes'}else{'No'});'Owned?'=$(if($owned){'Yes'}else{'No'});Uptie=$up;Level=$level;Facade=$facade;Season=(Format-Season $season);Day=(Format-Day $date);Percentage=($percentage.ToString('F4',[Globalization.CultureInfo]::InvariantCulture)+'%')}
             $rowIds[$row.Sinner+'|'+$row.Kind+'|'+$row.Name]=[int]$id;$rows.Add($row);$detail.Add([pscustomobject]@{ID=[int]$id;Kind=$kind;SinnerID=$sinner;Sinner=$row.Sinner;Name=$name;Owned=$owned;Tier=$up;Level=$level;Facade=$facade;Rarity=$rarity;SeasonID=$season;ReleaseDate=$row.Day;InStandard=$pool.ContainsKey([int]$id);Percentage=$percentage})

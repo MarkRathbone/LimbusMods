@@ -147,3 +147,41 @@ static IEnumerable<string> InteractionScripts(System.Text.Json.JsonElement eleme
  else if(element.ValueKind==System.Text.Json.JsonValueKind.Array)
   foreach(var item in element.EnumerateArray())foreach(var script in InteractionScripts(item))yield return script;
 }
+
+foreach(var stageId in new[]{10574,10575,10576,10577})
+ if(!manifest.StageIds.Contains(stageId))throw new Exception("Walpurgis 10 encounter does not enable buff restorations.");
+foreach(var id in new[]{"EmotionLevelZero","EmotionLevelOne","EmotionLevelTwo","EmotionLevelThree"})
+{
+ var patches=manifest.For("buff:"+id,0);
+ if(patches.Count!=1||!patches[0].Path.SequenceEqual(new[]{"list"}))throw new Exception("Missing Emotion Level restoration: "+id);
+ var patch=patches[0];
+ bool BurnReduction(System.Text.Json.JsonElement ability)=>ability.GetProperty("ability").GetString()=="TakeSinBuffDamageMultiplier"
+  &&ability.GetProperty("value").GetDouble()==-.75&&ability.GetProperty("buffData").GetProperty("buffKeyword").GetString()=="Combustion";
+ var original=patch.Expected.EnumerateArray().ToArray();
+ if(original.Count(BurnReduction)!=1)throw new Exception("Unverified Burn reduction: "+id);
+ var retainedAbilities=original.Where(a=>!BurnReduction(a)).ToArray();
+ var restored=patch.Restored.EnumerateArray().ToArray();
+ if(retainedAbilities.Length!=restored.Length)throw new Exception("Other Emotion Level abilities changed: "+id);
+ for(int i=0;i<retainedAbilities.Length;i++)
+  if(!System.Text.Json.Nodes.JsonNode.DeepEquals(System.Text.Json.Nodes.JsonNode.Parse(retainedAbilities[i].GetRawText()),System.Text.Json.Nodes.JsonNode.Parse(restored[i].GetRawText())))
+   throw new Exception("Emotion Level ability changed beyond the Burn reduction: "+id);
+ if(manifest.For("buff:"+id+"Other",0).Count!=0)throw new Exception("Emotion restoration matched an unrelated buff.");
+}
+Console.WriteLine("Walpurgis 10: all four stage variants enable restorations; only the exact 75% Burn protection is removed from Emotion Levels 0–3.");
+
+foreach(var id in new[]{"EmotionLevelZero","EmotionLevelOne","EmotionLevelTwo","EmotionLevelThree"})
+{
+ const string otherEffects="- Max Stack: 30\n- Gain 3 Stacks On Clash Win\n- Ashes: inflict 1~3 Burn";
+ foreach(var reduction in new[]{"- Take -75% damage from Burn effects (rounded down)","- Take -75% damage from [Combustion] effects (rounded down)","- Take -75% damage from <sprite name=Burn><link=Combustion><color=red>Burn</color></link> effects (rounded down)"})
+ {
+  Equal(otherEffects,DescriptionRules.RestoreBuff(id,reduction+"\n"+otherEffects));
+  Equal(otherEffects.Replace("\n","\r\n"),DescriptionRules.RestoreBuff(id,reduction+"\r\n"+otherEffects.Replace("\n","\r\n")));
+ }
+ Equal("",DescriptionRules.RestoreBuff(id,"Take -75% damage from Burn effects (rounded down)"));
+ Equal(otherEffects,DescriptionRules.RestoreBuff(id,otherEffects));
+}
+const string unrelatedBurn="- Take -75% damage from Burn effects (rounded down)";
+Equal(unrelatedBurn,DescriptionRules.RestoreBuff("UnrelatedBuff",unrelatedBurn));
+Equal(unrelatedBurn,DescriptionRules.RestoreBuff("EmotionLevelFour",unrelatedBurn));
+Equal("- Take -50% damage from Burn effects (rounded down)",DescriptionRules.RestoreBuff("EmotionLevelZero","- Take -50% damage from Burn effects (rounded down)"));
+Console.WriteLine("Emotion Level tooltips: raw/linked descriptions and summaries omit only the restored 75% Burn-protection line; other effects and unrelated buffs are retained.");

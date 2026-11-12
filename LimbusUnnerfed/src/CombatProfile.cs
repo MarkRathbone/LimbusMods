@@ -121,7 +121,7 @@ internal sealed class CombatProfile : IDisposable
   if(original==IntPtr.Zero)return original;
   var id=N.StringField(original,"id");
   original=restorations.Restore(original,"bufftext:"+id,0);
-  if(id is not ("Irritation" or "HugeIrritation"))return original;
+  if(id is not ("Irritation" or "HugeIrritation")&&!DescriptionRules.IsEmotionLevel(id))return original;
   if(buffTexts.ContainsValue(original))return original;
   if(buffTexts.TryGetValue(original,out var cached))return cached;
   var result=Keep(N.Clone(original));
