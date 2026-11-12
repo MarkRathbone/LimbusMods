@@ -23,7 +23,9 @@ Download the appropriate ZIP from [Releases](https://github.com/MarkRathbone/Lim
 
 ## Releases
 
-The root `.github/workflows/ci.yml` calls the shared reusable workflow. Main-branch pushes and pull requests build all projects without publishing. Pushing a project/version tag builds, tests and publishes that project's GitHub Release:
+The root `.github/workflows/ci.yml` calls the shared reusable workflow. Pull requests and manual runs build without publishing. After a successful project build on `main`, CI creates its missing version tag and publishes the ZIP and checksum automatically. Bump the project version before pushing changes you want released; existing tags and releases are left unchanged. The first push also releases any current project versions that have no tag yet.
+
+You can still publish a specific project by pushing a matching tag:
 
 ```powershell
 git tag LimbusAutodialogue/v1.0.0

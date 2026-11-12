@@ -10,7 +10,7 @@ Requires .NET 6 and .NET 10 SDKs. `-CoreDir path/to/BepInEx/core` uses existing 
 
 Each project has a `release.json` specifying its project, optional tests and explicit package-file list. Packages contain only the plugin/scripts, README and installer. Research, game files, dependencies and account exports are excluded. ZIPs and checksums are saved in each project's ignored `artifacts/` directory. `Test-Build.ps1` checks packaging and rejection of invalid tags, private paths, traversal and invalid PowerShell.
 
-The shared reusable workflow is at the repository root: `.github/workflows/mod-release.yml`. `.github/workflows/ci.yml` selects projects and calls it. Branch pushes, pull requests and manual runs build all projects; project/version tags build and release the selected project after its tests pass.
+The shared reusable workflow is at the repository root: `.github/workflows/mod-release.yml`. `.github/workflows/ci.yml` selects projects and calls it. Pushes to `main` build all projects and automatically tag and release each successfully built version that has no tag yet. Bump the project version to publish an update. Pull requests and manual runs only build. Project/version tags can still release a selected project after its tests pass. Publication runs in the same workflow, so it does not depend on token-created tags triggering another workflow.
 
 ```powershell
 git tag LimbusUltrawide/v0.9.57

@@ -45,3 +45,4 @@ jobs:
     uses: ./.github/workflows/mod-release.yml
     with:
       project: ${{ matrix.project }}
+      auto-release: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}

@@ -6,6 +6,9 @@ on:
       project:
         required: true
         type: string
+      auto-release:
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -49,11 +52,17 @@ jobs:
 
   release:
     needs: build
-    if: startsWith(github.ref, 'refs/tags/Limbus') && github.event_name == 'push'
+    if: github.event_name == 'push' && (startsWith(github.ref, 'refs/tags/Limbus') || (inputs.auto-release && github.ref == 'refs/heads/main'))
+    concurrency:
+      group: release-${{ inputs.project }}-${{ needs.build.outputs.version }}
+      cancel-in-progress: false
     runs-on: windows-2022
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/download-artifact@v4
         with:
           name: release-assets-${{ inputs.project }}
@@ -63,10 +72,32 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-          RELEASE_TAG: ${{ github.ref_name }}
+          RELEASE_TAG: ${{ inputs.project }}/v${{ needs.build.outputs.version }}
+          RELEASE_COMMIT: ${{ github.sha }}
           RELEASE_NAME: ${{ needs.build.outputs.name }}
           RELEASE_VERSION: ${{ needs.build.outputs.version }}
         run: |
+          $releases = & gh api --paginate "repos/$env:GH_REPO/releases?per_page=100" --jq '.[].tag_name'
+          if ($LASTEXITCODE -ne 0) { throw 'Could not check existing releases.' }
+          if ($env:RELEASE_TAG -in $releases) {
+            Write-Host "Already released: $env:RELEASE_TAG"
+            exit 0
+          }
+          $existing = & git tag --list $env:RELEASE_TAG
+          if ($LASTEXITCODE -ne 0) { throw 'Could not check existing tags.' }
+          if ($existing) {
+            $target = & git rev-list -n 1 $env:RELEASE_TAG
+            if ($LASTEXITCODE -ne 0) { throw 'Could not resolve release tag.' }
+            if ($target -ne $env:RELEASE_COMMIT) {
+              Write-Host "Existing tag belongs to another commit; leaving it unchanged: $env:RELEASE_TAG"
+              exit 0
+            }
+          } else {
+            & git tag $env:RELEASE_TAG $env:RELEASE_COMMIT
+            if ($LASTEXITCODE -ne 0) { throw 'Could not create release tag.' }
+            & git push origin "refs/tags/$env:RELEASE_TAG"
+            if ($LASTEXITCODE -ne 0) { throw 'Could not push release tag.' }
+          }
           $assets = @(Get-ChildItem release-assets -File | ForEach-Object FullName)
           $arguments = @('release','create',$env:RELEASE_TAG,'--verify-tag','--generate-notes','--title',"$env:RELEASE_NAME $env:RELEASE_VERSION")
           if ($env:RELEASE_VERSION.Contains('-')) { $arguments += '--prerelease' }
